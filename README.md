@@ -5,5 +5,5 @@ Sistem ini juga terhubung kepada sistem absensi karyawan yang berbasis mobile, d
 
 ![alt text](https://raw.githubusercontent.com/febriatuliqbal/absensi-dan-gaji-karyawan/main/public/1.png)
 ![alt text](https://raw.githubusercontent.com/febriatuliqbal/absensi-dan-gaji-karyawan/main/public/2.png)
-![alt text](https://raw.githubusercontent.com/febriatuliqbal/absensi-dan-gaji-karyawan/main/public/3.png)
-![alt text](https://raw.githubusercontent.com/febriatuliqbal/absensi-dan-gaji-karyawan/main/public/4.png)
+![alt text](https://raw.githubusercontent.com/febriatuliqbal/absensi-dan-gaji-karyawan/main/public/3.jpg)
+![alt text](https://raw.githubusercontent.com/febriatuliqbal/absensi-dan-gaji-karyawan/main/public/4.jpg)
