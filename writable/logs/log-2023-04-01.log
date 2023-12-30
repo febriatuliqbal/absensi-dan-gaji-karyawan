@@ -1,0 +1,74 @@
+ERROR - 2023-04-01 04:40:37 --> mysqli_sql_exception: Unknown column 'mhsnobp' in 'where clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\AbsensiKaryawanApi.php(39): CodeIgniter\Model->__call('get', Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\AbsensiKaryawanApi->show('2')
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AbsensiKaryawanApi))
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-01 04:40:37 --> Unknown column 'mhsnobp' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `Absensi_karyawan`
+WHERE `mhsnobp` LIKE \'%2%\' ESCAPE \'!\'
+OR  `mhsnama` LIKE \'%2%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Absensi_karyawan`
+WHERE `mhsnobp` LIKE \'%2%\' ESCAPE \'!\'
+OR  `mhsnama` LIKE \'%2%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Absensi_karyawan`
+WHERE `mhsnobp` LIKE \'%2%\' ESCAPE \'!\'
+OR  `mhsnama` LIKE \'%2%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Absensi_karyawan`
+WHERE `mhsnobp` LIKE :mhsnobp: ESCAPE \'!\'
+OR  `mhsnama` LIKE :mhsnama: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AbsensiKaryawanApi.php(39): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AbsensiKaryawanApi->show('2')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AbsensiKaryawanApi))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-01 04:40:42 --> mysqli_sql_exception: Unknown column 'mhsnobp' in 'where clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\AbsensiKaryawanApi.php(39): CodeIgniter\Model->__call('get', Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\AbsensiKaryawanApi->show('1')
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AbsensiKaryawanApi))
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-01 04:40:42 --> Unknown column 'mhsnobp' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `Absensi_karyawan`
+WHERE `mhsnobp` LIKE \'%1%\' ESCAPE \'!\'
+OR  `mhsnama` LIKE \'%1%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Absensi_karyawan`
+WHERE `mhsnobp` LIKE \'%1%\' ESCAPE \'!\'
+OR  `mhsnama` LIKE \'%1%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Absensi_karyawan`
+WHERE `mhsnobp` LIKE \'%1%\' ESCAPE \'!\'
+OR  `mhsnama` LIKE \'%1%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Absensi_karyawan`
+WHERE `mhsnobp` LIKE :mhsnobp: ESCAPE \'!\'
+OR  `mhsnama` LIKE :mhsnama: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AbsensiKaryawanApi.php(39): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AbsensiKaryawanApi->show('1')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AbsensiKaryawanApi))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,1027 @@
+CRITICAL - 2023-06-29 14:25:18 --> Undefined variable $cari
+in APPPATH\Views\lokasikantor\viewlokasikantor.php on line 52.
+ 1 APPPATH\Views\lokasikantor\viewlokasikantor.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Views\\lokasikantor\\viewlokasikantor.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasikantor\\viewlokasikantor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lokasikantor/viewlokasikantor', [], true)
+ 5 APPPATH\Controllers\LokasiKantor.php(30): view('lokasikantor/viewlokasikantor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LokasiKantor->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiKantor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:27:31 --> Undefined variable $pager
+in APPPATH\Views\lokasikantor\viewlokasikantor.php on line 151.
+ 1 APPPATH\Views\lokasikantor\viewlokasikantor.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'APPPATH\\Views\\lokasikantor\\viewlokasikantor.php', 151)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasikantor\\viewlokasikantor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lokasikantor/viewlokasikantor', [], true)
+ 5 APPPATH\Controllers\LokasiKantor.php(30): view('lokasikantor/viewlokasikantor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LokasiKantor->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiKantor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:28:59 --> Undefined variable $nomor
+in APPPATH\Views\lokasikantor\viewlokasikantor.php on line 95.
+ 1 APPPATH\Views\lokasikantor\viewlokasikantor.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nomor', 'APPPATH\\Views\\lokasikantor\\viewlokasikantor.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasikantor\\viewlokasikantor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lokasikantor/viewlokasikantor', [], true)
+ 5 APPPATH\Controllers\LokasiKantor.php(30): view('lokasikantor/viewlokasikantor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LokasiKantor->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiKantor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:36:35 --> Undefined variable $id
+in APPPATH\Views\lokasikantor\viewlokasikantor.php on line 40.
+ 1 APPPATH\Views\lokasikantor\viewlokasikantor.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\lokasikantor\\viewlokasikantor.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasikantor\\viewlokasikantor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lokasikantor/viewlokasikantor', [], true)
+ 5 APPPATH\Controllers\LokasiKantor.php(30): view('lokasikantor/viewlokasikantor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LokasiKantor->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiKantor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:39:16 --> Undefined array key "userkaryawan_hutang"
+in APPPATH\Controllers\LokasiKantor.php on line 28.
+ 1 APPPATH\Controllers\LokasiKantor.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userkaryawan_hutang"', 'APPPATH\\Controllers\\LokasiKantor.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LokasiKantor->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiKantor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:40:21 --> Undefined array key "latlongitudeitude"
+in APPPATH\Controllers\LokasiKantor.php on line 27.
+ 1 APPPATH\Controllers\LokasiKantor.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "latlongitudeitude"', 'APPPATH\\Controllers\\LokasiKantor.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LokasiKantor->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiKantor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:40:22 --> Undefined array key "latlongitudeitude"
+in APPPATH\Controllers\LokasiKantor.php on line 27.
+ 1 APPPATH\Controllers\LokasiKantor.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "latlongitudeitude"', 'APPPATH\\Controllers\\LokasiKantor.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LokasiKantor->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiKantor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:40:32 --> Undefined variable $id
+in APPPATH\Views\lokasikantor\viewlokasikantor.php on line 40.
+ 1 APPPATH\Views\lokasikantor\viewlokasikantor.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\lokasikantor\\viewlokasikantor.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasikantor\\viewlokasikantor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lokasikantor/viewlokasikantor', [], true)
+ 5 APPPATH\Controllers\LokasiKantor.php(36): view('lokasikantor/viewlokasikantor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LokasiKantor->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiKantor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:41:14 --> Undefined variable $id
+in APPPATH\Views\lokasikantor\viewlokasikantor.php on line 40.
+ 1 APPPATH\Views\lokasikantor\viewlokasikantor.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\lokasikantor\\viewlokasikantor.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasikantor\\viewlokasikantor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lokasikantor/viewlokasikantor', [], true)
+ 5 APPPATH\Controllers\LokasiKantor.php(36): view('lokasikantor/viewlokasikantor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LokasiKantor->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiKantor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:45:51 --> Undefined array key "subtotal_hutang"
+in APPPATH\Controllers\Hutang.php on line 286.
+ 1 APPPATH\Controllers\Hutang.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Controllers\\Hutang.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:45:56 --> Undefined array key "subtotal_hutang"
+in APPPATH\Controllers\Hutang.php on line 286.
+ 1 APPPATH\Controllers\Hutang.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Controllers\\Hutang.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:46:37 --> Undefined array key "subtotal_hutang"
+in APPPATH\Controllers\Hutang.php on line 286.
+ 1 APPPATH\Controllers\Hutang.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Controllers\\Hutang.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:46:37 --> Undefined array key "subtotal_hutang"
+in APPPATH\Controllers\Hutang.php on line 286.
+ 1 APPPATH\Controllers\Hutang.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Controllers\\Hutang.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:47:36 --> Undefined variable $row
+in APPPATH\Views\lokasikantor\viewlokasikantor.php on line 65.
+ 1 APPPATH\Views\lokasikantor\viewlokasikantor.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\lokasikantor\\viewlokasikantor.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasikantor\\viewlokasikantor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lokasikantor/viewlokasikantor', [], true)
+ 5 APPPATH\Controllers\LokasiKantor.php(36): view('lokasikantor/viewlokasikantor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LokasiKantor->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiKantor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:48:00 --> Undefined variable $row
+in APPPATH\Views\lokasikantor\viewlokasikantor.php on line 65.
+ 1 APPPATH\Views\lokasikantor\viewlokasikantor.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\lokasikantor\\viewlokasikantor.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\lokasikantor\\viewlokasikantor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('lokasikantor/viewlokasikantor', [], true)
+ 5 APPPATH\Controllers\LokasiKantor.php(36): view('lokasikantor/viewlokasikantor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LokasiKantor->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiKantor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:48:29 --> Undefined array key "subtotal_hutang"
+in APPPATH\Controllers\Hutang.php on line 286.
+ 1 APPPATH\Controllers\Hutang.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Controllers\\Hutang.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:48:57 --> Undefined array key "subtotal_hutang"
+in APPPATH\Controllers\Hutang.php on line 286.
+ 1 APPPATH\Controllers\Hutang.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Controllers\\Hutang.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:48:59 --> Undefined array key "subtotal_hutang"
+in APPPATH\Controllers\Hutang.php on line 286.
+ 1 APPPATH\Controllers\Hutang.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Controllers\\Hutang.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:49:11 --> Undefined array key "subtotal_hutang"
+in APPPATH\Controllers\Hutang.php on line 286.
+ 1 APPPATH\Controllers\Hutang.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Controllers\\Hutang.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:49:14 --> Undefined array key "subtotal_hutang"
+in APPPATH\Controllers\Hutang.php on line 286.
+ 1 APPPATH\Controllers\Hutang.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Controllers\\Hutang.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 14:49:28 --> Undefined array key "subtotal_hutang"
+in APPPATH\Controllers\Hutang.php on line 286.
+ 1 APPPATH\Controllers\Hutang.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Controllers\\Hutang.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 15:30:29 --> Unmatched '}'
+in APPPATH\Controllers\LokasiKantor.php on line 72.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('LokasiKantor/index')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('LokasiKantor/index')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('LokasiKantor/index')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 15:30:36 --> Unmatched '}'
+in APPPATH\Controllers\LokasiKantor.php on line 72.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('LokasiKantor/index')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('LokasiKantor/index')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('LokasiKantor/index')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 15:30:55 --> Undefined property: App\Controllers\LokasiKantor::$DetailHModelLokasiutang
+in APPPATH\Controllers\LokasiKantor.php on line 53.
+ 1 APPPATH\Controllers\LokasiKantor.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LokasiKantor::$DetailHModelLokasiutang', 'APPPATH\\Controllers\\LokasiKantor.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LokasiKantor->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiKantor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 15:31:31 --> Object of class App\Models\ModelLokasiKantor could not be converted to string
+in APPPATH\Controllers\LokasiKantor.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LokasiKantor->updatedata()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiKantor))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 15:31:52 --> Object of class App\Models\ModelLokasiKantor could not be converted to string
+in APPPATH\Controllers\LokasiKantor.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LokasiKantor->updatedata()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiKantor))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 15:32:27 --> Object of class App\Models\ModelLokasiKantor could not be converted to string
+in APPPATH\Controllers\LokasiKantor.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LokasiKantor->updatedata()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiKantor))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 15:34:03 --> Undefined variable $nama
+in APPPATH\Controllers\LokasiKantor.php on line 61.
+ 1 APPPATH\Controllers\LokasiKantor.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Controllers\\LokasiKantor.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\LokasiKantor->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiKantor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-29 15:49:17 --> mysqli_sql_exception: Unknown column 'id_absensi' in 'where clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\LokasiKantor.php(40): CodeIgniter\Model->__call('get', Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\LokasiKantor->show('1')
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\LokasiKantor))
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-29 15:49:17 --> Unknown column 'id_absensi' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tb_lokasi_kantor`
+WHERE `id_absensi` LIKE \'%1%\' ESCAPE \'!\'
+OR  `id_absensi` LIKE \'%1%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_lokasi_kantor`
+WHERE `id_absensi` LIKE \'%1%\' ESCAPE \'!\'
+OR  `id_absensi` LIKE \'%1%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_lokasi_kantor`
+WHERE `id_absensi` LIKE \'%1%\' ESCAPE \'!\'
+OR  `id_absensi` LIKE \'%1%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_lokasi_kantor`
+WHERE `id_absensi` LIKE :id_absensi: ESCAPE \'!\'
+OR  `id_absensi` LIKE :id_absensi.1: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\API\LokasiKantor.php(40): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\LokasiKantor->show('1')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\LokasiKantor))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 19:11:04 --> Undefined variable $id_karyawan
+in APPPATH\Controllers\API\InputAbsensiKaryawanApi.php on line 200.
+ 1 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_karyawan', 'APPPATH\\Controllers\\API\\InputAbsensiKaryawanApi.php', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 19:11:23 --> Undefined variable $id_karyawan
+in APPPATH\Controllers\API\InputAbsensiKaryawanApi.php on line 200.
+ 1 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_karyawan', 'APPPATH\\Controllers\\API\\InputAbsensiKaryawanApi.php', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 19:11:35 --> Undefined variable $id_karyawan
+in APPPATH\Controllers\API\InputAbsensiKaryawanApi.php on line 200.
+ 1 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_karyawan', 'APPPATH\\Controllers\\API\\InputAbsensiKaryawanApi.php', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 19:12:46 --> Undefined variable $id_karyawan
+in APPPATH\Controllers\API\InputAbsensiKaryawanApi.php on line 200.
+ 1 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_karyawan', 'APPPATH\\Controllers\\API\\InputAbsensiKaryawanApi.php', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 19:26:21 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 867.
+ 1 SYSTEMPATH\BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(213): CodeIgniter\Model->update('18-20230629', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 19:28:18 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 867.
+ 1 SYSTEMPATH\BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(211): CodeIgniter\Model->update('18-20230629', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 19:28:29 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 867.
+ 1 SYSTEMPATH\BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(211): CodeIgniter\Model->update('18-20230629', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:05:20 --> Undefined array key "foto_karyawan"
+in APPPATH\Views\jamkerja\viewjamkerja.php on line 91.
+ 1 APPPATH\Views\jamkerja\viewjamkerja.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_karyawan"', 'APPPATH\\Views\\jamkerja\\viewjamkerja.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\jamkerja\\viewjamkerja.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('jamkerja/viewjamkerja', [], true)
+ 5 APPPATH\Controllers\Jamkerja.php(42): view('jamkerja/viewjamkerja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jamkerja->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jamkerja))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:05:41 --> Undefined array key "foto_karyawan"
+in APPPATH\Views\jamkerja\viewjamkerja.php on line 93.
+ 1 APPPATH\Views\jamkerja\viewjamkerja.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_karyawan"', 'APPPATH\\Views\\jamkerja\\viewjamkerja.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\jamkerja\\viewjamkerja.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('jamkerja/viewjamkerja', [], true)
+ 5 APPPATH\Controllers\Jamkerja.php(42): view('jamkerja/viewjamkerja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jamkerja->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jamkerja))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:05:43 --> Undefined array key "foto_karyawan"
+in APPPATH\Views\jamkerja\viewjamkerja.php on line 93.
+ 1 APPPATH\Views\jamkerja\viewjamkerja.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_karyawan"', 'APPPATH\\Views\\jamkerja\\viewjamkerja.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\jamkerja\\viewjamkerja.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('jamkerja/viewjamkerja', [], true)
+ 5 APPPATH\Controllers\Jamkerja.php(42): view('jamkerja/viewjamkerja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jamkerja->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jamkerja))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:06:04 --> Undefined array key "foto_karyawan"
+in APPPATH\Views\jamkerja\viewjamkerja.php on line 93.
+ 1 APPPATH\Views\jamkerja\viewjamkerja.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_karyawan"', 'APPPATH\\Views\\jamkerja\\viewjamkerja.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\jamkerja\\viewjamkerja.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('jamkerja/viewjamkerja', [], true)
+ 5 APPPATH\Controllers\Jamkerja.php(42): view('jamkerja/viewjamkerja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jamkerja->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jamkerja))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:06:05 --> Undefined array key "foto_karyawan"
+in APPPATH\Views\jamkerja\viewjamkerja.php on line 93.
+ 1 APPPATH\Views\jamkerja\viewjamkerja.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_karyawan"', 'APPPATH\\Views\\jamkerja\\viewjamkerja.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\jamkerja\\viewjamkerja.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('jamkerja/viewjamkerja', [], true)
+ 5 APPPATH\Controllers\Jamkerja.php(42): view('jamkerja/viewjamkerja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jamkerja->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jamkerja))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:06:49 --> Undefined array key "nama_karyawan"
+in APPPATH\Views\jamkerja\viewjamkerja.php on line 88.
+ 1 APPPATH\Views\jamkerja\viewjamkerja.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_karyawan"', 'APPPATH\\Views\\jamkerja\\viewjamkerja.php', 88)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\jamkerja\\viewjamkerja.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('jamkerja/viewjamkerja', [], true)
+ 5 APPPATH\Controllers\Jamkerja.php(42): view('jamkerja/viewjamkerja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jamkerja->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jamkerja))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:07:15 --> Undefined array key "idkaryawan"
+in APPPATH\Views\jamkerja\viewjamkerja.php on line 101.
+ 1 APPPATH\Views\jamkerja\viewjamkerja.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idkaryawan"', 'APPPATH\\Views\\jamkerja\\viewjamkerja.php', 101)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\jamkerja\\viewjamkerja.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('jamkerja/viewjamkerja', [], true)
+ 5 APPPATH\Controllers\Jamkerja.php(42): view('jamkerja/viewjamkerja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jamkerja->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jamkerja))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:12:18 --> Undefined variable $nama_karyawan
+in APPPATH\Views\jamkerja\formeditjamkerja.php on line 46.
+ 1 APPPATH\Views\jamkerja\formeditjamkerja.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_karyawan', 'APPPATH\\Views\\jamkerja\\formeditjamkerja.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\jamkerja\\formeditjamkerja.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('jamkerja/formeditjamkerja', [], true)
+ 5 APPPATH\Controllers\Jamkerja.php(345): view('jamkerja/formeditjamkerja', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jamkerja->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jamkerja))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:32:09 --> Object of class DateInterval could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(238): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:32:17 --> Object of class DateInterval could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(238): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:32:45 --> Object of class DateInterval could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(238): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:32:59 --> Object of class DateInterval could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(238): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:41:04 --> Object of class DateInterval could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(246): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:41:27 --> Object of class DateInterval could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(246): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:41:35 --> Object of class DateInterval could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(246): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:41:48 --> Object of class DateInterval could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(246): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:52:10 --> Object of class DateTime could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(245): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:52:20 --> Object of class DateTime could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(245): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:53:20 --> Object of class DateTime could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(245): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:53:32 --> Object of class DateTime could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(245): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:54:32 --> Object of class DateTime could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(245): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 20:54:41 --> Object of class DateTime could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(245): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:12:42 --> A non-numeric value encountered
+in APPPATH\Controllers\API\InputAbsensiKaryawanApi.php on line 231.
+ 1 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\API\\InputAbsensiKaryawanApi.php', 231)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:12:53 --> A non-numeric value encountered
+in APPPATH\Controllers\API\InputAbsensiKaryawanApi.php on line 231.
+ 1 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\API\\InputAbsensiKaryawanApi.php', 231)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:13:34 --> A non-numeric value encountered
+in APPPATH\Controllers\API\InputAbsensiKaryawanApi.php on line 231.
+ 1 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\API\\InputAbsensiKaryawanApi.php', 231)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:13:58 --> A non-numeric value encountered
+in APPPATH\Controllers\API\InputAbsensiKaryawanApi.php on line 231.
+ 1 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\API\\InputAbsensiKaryawanApi.php', 231)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:14:33 --> Object of class DateTime could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(245): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:15:20 --> Object of class DateTime could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(245): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:27:42 --> Undefined array key "jammasuk"
+in APPPATH\Controllers\API\InputAbsensiKaryawanApi.php on line 233.
+ 1 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jammasuk"', 'APPPATH\\Controllers\\API\\InputAbsensiKaryawanApi.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:28:24 --> Undefined array key "jammasuk"
+in APPPATH\Controllers\API\InputAbsensiKaryawanApi.php on line 233.
+ 1 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jammasuk"', 'APPPATH\\Controllers\\API\\InputAbsensiKaryawanApi.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:28:53 --> Undefined array key "jammasuk"
+in APPPATH\Controllers\API\InputAbsensiKaryawanApi.php on line 233.
+ 1 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jammasuk"', 'APPPATH\\Controllers\\API\\InputAbsensiKaryawanApi.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:29:05 --> Undefined array key "jammasuk"
+in APPPATH\Controllers\API\InputAbsensiKaryawanApi.php on line 233.
+ 1 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jammasuk"', 'APPPATH\\Controllers\\API\\InputAbsensiKaryawanApi.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:31:34 --> Object of class DateInterval could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(254): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:31:43 --> Object of class DateInterval could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(254): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:32:17 --> Object of class DateInterval could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(254): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:32:33 --> Object of class DateInterval could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(254): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:33:29 --> Object of class DateTime could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(254): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:33:39 --> Object of class DateTime could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(254): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:34:07 --> Object of class DateTime could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(254): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:36:10 --> Object of class DateTime could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(254): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 21:37:25 --> Object of class DateInterval could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi_karyawan` SET `status` = :status:
+WHERE `absensi_karyawan`.`id_absensi` IN :absensi_karyawan.id_absensi:', [...], false)
+ 6 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 7 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 8 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 9 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(254): CodeIgniter\Model->update('18-20230629', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('18-20230629')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:10:03 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Hutang.php(263): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->simpandata()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:11:12 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 867.
+ 1 SYSTEMPATH\BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Hutang.php(255): CodeIgniter\Model->update('REK-18010623', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->simpandata()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:12:33 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 867.
+ 1 SYSTEMPATH\BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Hutang.php(254): CodeIgniter\Model->update('REK-18010623', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->simpandata()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:14:08 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 867.
+ 1 SYSTEMPATH\BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Hutang.php(254): CodeIgniter\Model->update('REK-18010623', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->simpandata()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:31:02 --> Undefined variable $idkaryawan
+in APPPATH\Controllers\Hutang.php on line 112.
+ 1 APPPATH\Controllers\Hutang.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idkaryawan', 'APPPATH\\Controllers\\Hutang.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:31:08 --> Undefined variable $idkaryawan
+in APPPATH\Controllers\Hutang.php on line 112.
+ 1 APPPATH\Controllers\Hutang.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idkaryawan', 'APPPATH\\Controllers\\Hutang.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:44:25 --> Class "App\Controllers\ModelDetailKelalaian" not found
+in APPPATH\Controllers\Kelalaian.php on line 377.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->edit('22')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:44:49 --> Class "App\Controllers\ModelDetailKelalaian" not found
+in APPPATH\Controllers\Kelalaian.php on line 377.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->edit('22')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:45:49 --> Undefined array key "userkaryawan_Kelalaian"
+in APPPATH\Controllers\Kelalaian.php on line 384.
+ 1 APPPATH\Controllers\Kelalaian.php(384): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userkaryawan_Kelalaian"', 'APPPATH\\Controllers\\Kelalaian.php', 384)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->edit('22')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:45:52 --> Undefined array key "userkaryawan_Kelalaian"
+in APPPATH\Controllers\Kelalaian.php on line 384.
+ 1 APPPATH\Controllers\Kelalaian.php(384): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userkaryawan_Kelalaian"', 'APPPATH\\Controllers\\Kelalaian.php', 384)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->edit('22')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:46:52 --> Undefined array key "id_karyawan"
+in APPPATH\Controllers\Kelalaian.php on line 384.
+ 1 APPPATH\Controllers\Kelalaian.php(384): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_karyawan"', 'APPPATH\\Controllers\\Kelalaian.php', 384)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->edit('22')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:46:53 --> Undefined array key "id_karyawan"
+in APPPATH\Controllers\Kelalaian.php on line 384.
+ 1 APPPATH\Controllers\Kelalaian.php(384): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_karyawan"', 'APPPATH\\Controllers\\Kelalaian.php', 384)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->edit('22')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:47:24 --> Undefined array key "tgl_Kelalaian"
+in APPPATH\Controllers\Kelalaian.php on line 393.
+ 1 APPPATH\Controllers\Kelalaian.php(393): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_Kelalaian"', 'APPPATH\\Controllers\\Kelalaian.php', 393)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->edit('22')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:48:20 --> Undefined variable $id_hutang
+in APPPATH\Views\kelalaian\formeditkelalaian.php on line 41.
+ 1 APPPATH\Views\kelalaian\formeditkelalaian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_hutang', 'APPPATH\\Views\\kelalaian\\formeditkelalaian.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelalaian\\formeditkelalaian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kelalaian/formeditKelalaian', [], true)
+ 5 APPPATH\Controllers\Kelalaian.php(401): view('kelalaian/formeditKelalaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->edit('22')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:56:48 --> Class "App\Controllers\ModelKelalaian" not found
+in APPPATH\Controllers\Kelalaian.php on line 329.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->updatedata()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

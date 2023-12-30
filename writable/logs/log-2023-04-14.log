@@ -1,0 +1,707 @@
+CRITICAL - 2023-04-14 10:27:28 --> Unsupported operand types: string + string
+in APPPATH\Controllers\API\InputAbsensiKaryawanApi.php on line 143.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 11:26:55 --> Array to string conversion
+in APPPATH\Controllers\API\UploudFoto.php on line 94.
+ 1 APPPATH\Controllers\API\UploudFoto.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\API\\UploudFoto.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\UploudFoto->update('TRK-1404230009')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\UploudFoto))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 11:27:48 --> Array to string conversion
+in APPPATH\Controllers\API\UploudFoto.php on line 94.
+ 1 APPPATH\Controllers\API\UploudFoto.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\API\\UploudFoto.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\UploudFoto->update('TRK-1404230001')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\UploudFoto))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 11:39:03 --> Array to string conversion
+in APPPATH\Controllers\API\UploudFoto.php on line 94.
+ 1 APPPATH\Controllers\API\UploudFoto.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\API\\UploudFoto.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\UploudFoto->update('TRK-1404230002')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\UploudFoto))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 11:41:13 --> Array to string conversion
+in APPPATH\Controllers\API\UploudFoto.php on line 94.
+ 1 APPPATH\Controllers\API\UploudFoto.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\API\\UploudFoto.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\UploudFoto->update('TRK-1404230001')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\UploudFoto))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 11:41:22 --> Array to string conversion
+in APPPATH\Controllers\API\UploudFoto.php on line 94.
+ 1 APPPATH\Controllers\API\UploudFoto.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\API\\UploudFoto.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\UploudFoto->update('TRK-1404230001')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\UploudFoto))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 11:43:15 --> mysqli_sql_exception: Unknown column 'Nama_gaji' in 'where clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\UploudFoto.php(39): CodeIgniter\Model->__call('get', Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\UploudFoto->show('TRK-1404230001')
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\UploudFoto))
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-14 11:43:15 --> Unknown column 'Nama_gaji' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `absensi_karyawan`
+WHERE `Nama_gaji` LIKE \'%TRK-1404230001%\' ESCAPE \'!\'
+OR  `Nama_gaji` LIKE \'%TRK-1404230001%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `absensi_karyawan`
+WHERE `Nama_gaji` LIKE \'%TRK-1404230001%\' ESCAPE \'!\'
+OR  `Nama_gaji` LIKE \'%TRK-1404230001%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `absensi_karyawan`
+WHERE `Nama_gaji` LIKE \'%TRK-1404230001%\' ESCAPE \'!\'
+OR  `Nama_gaji` LIKE \'%TRK-1404230001%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absensi_karyawan`
+WHERE `Nama_gaji` LIKE :Nama_gaji: ESCAPE \'!\'
+OR  `Nama_gaji` LIKE :Nama_gaji.1: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\API\UploudFoto.php(39): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\UploudFoto->show('TRK-1404230001')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\UploudFoto))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 11:43:30 --> mysqli_sql_exception: Unknown column 'Nama_gaji' in 'where clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\UploudFoto.php(39): CodeIgniter\Model->__call('get', Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\UploudFoto->show('TRK-1404230001')
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\UploudFoto))
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-14 11:43:30 --> Unknown column 'Nama_gaji' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `absensi_karyawan`
+WHERE `Nama_gaji` LIKE \'%TRK-1404230001%\' ESCAPE \'!\'
+OR  `Nama_gaji` LIKE \'%TRK-1404230001%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `absensi_karyawan`
+WHERE `Nama_gaji` LIKE \'%TRK-1404230001%\' ESCAPE \'!\'
+OR  `Nama_gaji` LIKE \'%TRK-1404230001%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `absensi_karyawan`
+WHERE `Nama_gaji` LIKE \'%TRK-1404230001%\' ESCAPE \'!\'
+OR  `Nama_gaji` LIKE \'%TRK-1404230001%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absensi_karyawan`
+WHERE `Nama_gaji` LIKE :Nama_gaji: ESCAPE \'!\'
+OR  `Nama_gaji` LIKE :Nama_gaji.1: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\API\UploudFoto.php(39): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\UploudFoto->show('TRK-1404230001')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\UploudFoto))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 13:50:47 --> mysqli_sql_exception: Duplicate entry 'TRK-140423Kotlin 1' for key 'PRIMARY' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(153): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 13:50:47 --> Duplicate entry 'TRK-140423Kotlin 1' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'TRK-140423Kotlin 1\', \'Kotlin 1\', \'2023-04-14\', \'01:50\', \'-0.9486015,100.3718363\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'TRK-140423Kotlin 1\', \'Kotlin 1\', \'2023-04-14\', \'01:50\', \'-0.9486015,100.3718363\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'TRK-140423Kotlin 1\', \'Kotlin 1\', \'2023-04-14\', \'01:50\', \'-0.9486015,100.3718363\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(153): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 13:52:53 --> mysqli_sql_exception: Duplicate entry 'TRK-140423Kotlin 1' for key 'PRIMARY' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(155): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 13:52:53 --> Duplicate entry 'TRK-140423Kotlin 1' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'TRK-140423Kotlin 1\', \'Kotlin 1\', \'2023-04-14\', \'01:52\', \'-0.9485994,100.3718381\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'TRK-140423Kotlin 1\', \'Kotlin 1\', \'2023-04-14\', \'01:52\', \'-0.9485994,100.3718381\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'TRK-140423Kotlin 1\', \'Kotlin 1\', \'2023-04-14\', \'01:52\', \'-0.9485994,100.3718381\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(155): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 13:54:30 --> mysqli_sql_exception: Duplicate entry 'TRK-140423Kotlin 1' for key 'PRIMARY' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(155): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 13:54:30 --> Duplicate entry 'TRK-140423Kotlin 1' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'TRK-140423Kotlin 1\', \'Kotlin 1\', \'2023-04-14\', \'01:54\', \'-0.9485917,100.3718308\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'TRK-140423Kotlin 1\', \'Kotlin 1\', \'2023-04-14\', \'01:54\', \'-0.9485917,100.3718308\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'TRK-140423Kotlin 1\', \'Kotlin 1\', \'2023-04-14\', \'01:54\', \'-0.9485917,100.3718308\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(155): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 13:55:06 --> mysqli_sql_exception: Duplicate entry 'TRK-140423Kotlin 1' for key 'PRIMARY' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(155): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 13:55:06 --> Duplicate entry 'TRK-140423Kotlin 1' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'TRK-140423Kotlin 1\', \'Kotlin 1\', \'2023-04-14\', \'01:55\', \'-0.9485917,100.3718308\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'TRK-140423Kotlin 1\', \'Kotlin 1\', \'2023-04-14\', \'01:55\', \'-0.9485917,100.3718308\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'TRK-140423Kotlin 1\', \'Kotlin 1\', \'2023-04-14\', \'01:55\', \'-0.9485917,100.3718308\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(155): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 13:57:38 --> mysqli_sql_exception: Duplicate entry 'TRK-140423Laras Vaye' for key 'PRIMARY' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(155): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 13:57:38 --> Duplicate entry 'TRK-140423Laras Vaye' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'TRK-140423Laras Vayetri\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'TRK-140423Laras Vayetri\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'TRK-140423Laras Vayetri\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(155): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 14:15:12 --> mysqli_sql_exception: Duplicate entry 'Laras Vayetri140423' for key 'PRIMARY' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(146): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 14:15:12 --> Duplicate entry 'Laras Vayetri140423' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri140423\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri140423\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri140423\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(146): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 14:16:18 --> mysqli_sql_exception: Duplicate entry 'Laras Vayetri140423' for key 'PRIMARY' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(145): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 14:16:18 --> Duplicate entry 'Laras Vayetri140423' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri140423\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri140423\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri140423\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(145): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 14:16:26 --> mysqli_sql_exception: Duplicate entry 'Laras Vayetri140423' for key 'PRIMARY' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(145): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 14:16:26 --> Duplicate entry 'Laras Vayetri140423' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri140423\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri140423\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri140423\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(145): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 14:17:40 --> mysqli_sql_exception: Duplicate entry 'Laras Vayetri140423' for key 'PRIMARY' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(150): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 14:17:40 --> Duplicate entry 'Laras Vayetri140423' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri140423\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri140423\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri140423\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(150): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 14:17:45 --> mysqli_sql_exception: Duplicate entry 'Laras Vayetri140423' for key 'PRIMARY' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(150): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 14:17:45 --> Duplicate entry 'Laras Vayetri140423' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri140423\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri140423\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri140423\', \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(150): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 14:17:55 --> mysqli_sql_exception: Duplicate entry 'Laras Vayetri2140423' for key 'PRIMARY' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(150): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 14:17:55 --> Duplicate entry 'Laras Vayetri2140423' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri2140423\', \'Laras Vayetri2\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri2140423\', \'Laras Vayetri2\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri2140423\', \'Laras Vayetri2\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(150): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 14:18:44 --> mysqli_sql_exception: Duplicate entry 'Laras Vayetri2314042' for key 'PRIMARY' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(150): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 14:18:44 --> Duplicate entry 'Laras Vayetri2314042' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri23140423\', \'Laras Vayetri23\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri23140423\', \'Laras Vayetri23\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri23140423\', \'Laras Vayetri23\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(150): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 14:23:39 --> mysqli_sql_exception: Duplicate entry 'Laras Vayetri23-140423' for key 'PRIMARY' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(150): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 14:23:39 --> Duplicate entry 'Laras Vayetri23-140423' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri23-140423\', \'Laras Vayetri23\', \'2023-04-14\', \'14:00\', \' 0.9486192481933906,100.371796\', \'Hai\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri23-140423\', \'Laras Vayetri23\', \'2023-04-14\', \'14:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri23-140423\', \'Laras Vayetri23\', \'2023-04-14\', \'14:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(150): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 14:29:36 --> mysqli_sql_exception: Duplicate entry 'Laras Vayetri233-140423' for key 'PRIMARY' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(153): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 14:29:36 --> Duplicate entry 'Laras Vayetri233-140423' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri233-140423\', \'Laras Vayetri233\', \'2023-04-14\', \'14:00\', \' 0.9486192481933906,100.371796\', \'Hai\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri233-140423\', \'Laras Vayetri233\', \'2023-04-14\', \'14:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri233-140423\', \'Laras Vayetri233\', \'2023-04-14\', \'14:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(153): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 14:30:07 --> mysqli_sql_exception: Duplicate entry 'Laras Vayetri233-140423' for key 'PRIMARY' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(153): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 14:30:07 --> Duplicate entry 'Laras Vayetri233-140423' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri233-140423\', \'Laras Vayetri233\', \'2023-04-14\', \'14:00\', \' 0.9486192481933906,100.371796\', \'Hai\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri233-140423\', \'Laras Vayetri233\', \'2023-04-14\', \'14:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (\'Laras Vayetri233-140423\', \'Laras Vayetri233\', \'2023-04-14\', \'14:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(153): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 14:45:08 --> Undefined variable $noFaktur
+in APPPATH\Controllers\API\InputAbsensiKaryawanApi.php on line 146.
+ 1 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noFaktur', 'APPPATH\\Controllers\\API\\InputAbsensiKaryawanApi.php', 146)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 15:25:24 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 867.
+ 1 SYSTEMPATH\BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(183): CodeIgniter\Model->update('Kotlin 1-20230414', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('Kotlin 1-20230414')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 15:25:34 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 867.
+ 1 SYSTEMPATH\BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(183): CodeIgniter\Model->update('Kotlin 1-20230414', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('Kotlin 1-20230414')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 15:27:03 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(183): CodeIgniter\Model->update('Kotlin 1-20230414', [])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('Kotlin 1-20230414')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 15:27:54 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 867.
+ 1 SYSTEMPATH\BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(182): CodeIgniter\Model->update('Kotlin 1-20230414', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('Kotlin 1-20230414')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 15:27:59 --> mysqli_sql_exception: Unknown column 'Nama_gaji' in 'where clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(39): CodeIgniter\Model->__call('get', Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->show('Kotlin 1-202304...')
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-14 15:27:59 --> Unknown column 'Nama_gaji' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `absensi_karyawan`
+WHERE `Nama_gaji` LIKE \'%Kotlin 1-20230414%\' ESCAPE \'!\'
+OR  `Nama_gaji` LIKE \'%Kotlin 1-20230414%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `absensi_karyawan`
+WHERE `Nama_gaji` LIKE \'%Kotlin 1-20230414%\' ESCAPE \'!\'
+OR  `Nama_gaji` LIKE \'%Kotlin 1-20230414%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `absensi_karyawan`
+WHERE `Nama_gaji` LIKE \'%Kotlin 1-20230414%\' ESCAPE \'!\'
+OR  `Nama_gaji` LIKE \'%Kotlin 1-20230414%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `absensi_karyawan`
+WHERE `Nama_gaji` LIKE :Nama_gaji: ESCAPE \'!\'
+OR  `Nama_gaji` LIKE :Nama_gaji.1: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(39): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->show('Kotlin 1-20230414')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 15:29:58 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 867.
+ 1 SYSTEMPATH\BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(182): CodeIgniter\Model->update('Kotlin1-20230414', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('Kotlin1-20230414')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 15:31:24 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 867.
+ 1 SYSTEMPATH\BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(182): CodeIgniter\Model->update('Kotlin1-20230414', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->update('Kotlin1-20230414')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 16:48:52 --> mysqli_sql_exception: Column 'id_absensi' cannot be null in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(139): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 16:48:52 --> Column 'id_absensi' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (NULL, \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (NULL, \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (NULL, \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(139): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-14 16:49:05 --> mysqli_sql_exception: Column 'id_absensi' cannot be null in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\InputAbsensiKaryawanApi.php(139): CodeIgniter\Model->insert(Array)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-14 16:49:05 --> Column 'id_absensi' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (NULL, \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (NULL, \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (NULL, \'Laras Vayetri\', \'2023-04-14\', \'08:00\', \' 0.9486192481933906,100.371796\', \'Hai\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi_karyawan` (`id_absensi`, `id_karyawan`, `tgl_absensi`, `jam_masuk`, `lokasi_masuk`, `keterangan`) VALUES (:id_absensi:, :id_karyawan:, :tgl_absensi:, :jam_masuk:, :lokasi_masuk:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\InputAbsensiKaryawanApi.php(139): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKaryawanApi->create()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

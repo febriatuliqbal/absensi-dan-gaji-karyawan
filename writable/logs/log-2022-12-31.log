@@ -1,0 +1,192 @@
+CRITICAL - 2022-12-31 02:38:10 --> unlink(datagambar/): Is a directory
+in APPPATH\Controllers\UploudFoto.php on line 104.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/): Is a directory', 'APPPATH\\Controllers\\UploudFoto.php', 104)
+ 2 APPPATH\Controllers\UploudFoto.php(104): unlink('FCPATH\\datagambar')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1910005')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 02:47:46 --> unlink(datagambar/1111111.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1111111.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 107)
+ 2 APPPATH\Controllers\UploudFoto.php(107): unlink('datagambar/1111111.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1111111')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 02:47:49 --> unlink(datagambar/1111111.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1111111.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 107)
+ 2 APPPATH\Controllers\UploudFoto.php(107): unlink('datagambar/1111111.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1111111')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 02:47:53 --> unlink(datagambar/1111111.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1111111.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 107)
+ 2 APPPATH\Controllers\UploudFoto.php(107): unlink('datagambar/1111111.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1111111')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 02:48:03 --> unlink(datagambar/1111111.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1111111.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 107)
+ 2 APPPATH\Controllers\UploudFoto.php(107): unlink('datagambar/1111111.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1111111')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 02:48:30 --> unlink(datagambar/1111111.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1111111.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 107)
+ 2 APPPATH\Controllers\UploudFoto.php(107): unlink('datagambar/1111111.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1111111')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 02:48:32 --> unlink(datagambar/1111111.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1111111.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 107)
+ 2 APPPATH\Controllers\UploudFoto.php(107): unlink('datagambar/1111111.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1111111')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 02:48:55 --> unlink(datagambar/1111111.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1111111.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 107)
+ 2 APPPATH\Controllers\UploudFoto.php(107): unlink('datagambar/1111111.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1111111')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 02:48:59 --> unlink(datagambar/1111111.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1111111.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 107)
+ 2 APPPATH\Controllers\UploudFoto.php(107): unlink('datagambar/1111111.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1111111')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 07:19:56 --> unlink(datagambar/1910005.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1910005.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 106)
+ 2 APPPATH\Controllers\UploudFoto.php(106): unlink('datagambar/1910005.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1910005')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 07:20:02 --> unlink(datagambar/1910005.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1910005.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 106)
+ 2 APPPATH\Controllers\UploudFoto.php(106): unlink('datagambar/1910005.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1910005')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 07:23:39 --> unlink(datagambar/1910005.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1910005.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 106)
+ 2 APPPATH\Controllers\UploudFoto.php(106): unlink('datagambar/1910005.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1910005')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 07:23:45 --> unlink(datagambar/1910005.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1910005.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 106)
+ 2 APPPATH\Controllers\UploudFoto.php(106): unlink('datagambar/1910005.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1910005')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 07:24:19 --> unlink(datagambar/1910005.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1910005.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 106)
+ 2 APPPATH\Controllers\UploudFoto.php(106): unlink('datagambar/1910005.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1910005')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 07:25:35 --> unlink(datagambar/1111111.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1111111.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 106)
+ 2 APPPATH\Controllers\UploudFoto.php(106): unlink('datagambar/1111111.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1111111')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 07:25:39 --> unlink(datagambar/1111111.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1111111.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 106)
+ 2 APPPATH\Controllers\UploudFoto.php(106): unlink('datagambar/1111111.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1111111')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 07:25:45 --> unlink(datagambar/1111111.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1111111.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 106)
+ 2 APPPATH\Controllers\UploudFoto.php(106): unlink('datagambar/1111111.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1111111')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 07:25:46 --> unlink(datagambar/1111111.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1111111.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 106)
+ 2 APPPATH\Controllers\UploudFoto.php(106): unlink('datagambar/1111111.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1111111')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 07:25:46 --> unlink(datagambar/1111111.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1111111.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 106)
+ 2 APPPATH\Controllers\UploudFoto.php(106): unlink('datagambar/1111111.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1111111')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 07:25:46 --> unlink(datagambar/1111111.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1111111.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 106)
+ 2 APPPATH\Controllers\UploudFoto.php(106): unlink('datagambar/1111111.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1111111')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 07:25:47 --> unlink(datagambar/1111111.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1111111.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 106)
+ 2 APPPATH\Controllers\UploudFoto.php(106): unlink('datagambar/1111111.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1111111')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 07:25:47 --> unlink(datagambar/1111111.jpg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/1111111.jpg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 106)
+ 2 APPPATH\Controllers\UploudFoto.php(106): unlink('datagambar/1111111.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('1111111')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 07:39:29 --> unlink(datagambar/3333311.jpeg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 104.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/3333311.jpeg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 104)
+ 2 APPPATH\Controllers\UploudFoto.php(104): unlink('datagambar/3333311.jpeg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('3333311')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-31 07:39:35 --> unlink(datagambar/3333311.jpeg): No such file or directory
+in APPPATH\Controllers\UploudFoto.php on line 104.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/3333311.jpeg): No such file or directory', 'APPPATH\\Controllers\\UploudFoto.php', 104)
+ 2 APPPATH\Controllers\UploudFoto.php(104): unlink('datagambar/3333311.jpeg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('3333311')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

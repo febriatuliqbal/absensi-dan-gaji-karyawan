@@ -1,0 +1,88 @@
+CRITICAL - 2023-06-15 00:42:11 --> Undefined array key "jabatan_karyawan"
+in APPPATH\Controllers\User.php on line 302.
+ 1 APPPATH\Controllers\User.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jabatan_karyawan"', 'APPPATH\\Controllers\\User.php', 302)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->edit('Anggi')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 00:43:10 --> Undefined array key "jabatan_karyawan"
+in APPPATH\Controllers\User.php on line 302.
+ 1 APPPATH\Controllers\User.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jabatan_karyawan"', 'APPPATH\\Controllers\\User.php', 302)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->edit('Anggi')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 00:43:15 --> Undefined array key "jabatan_karyawan"
+in APPPATH\Controllers\User.php on line 302.
+ 1 APPPATH\Controllers\User.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jabatan_karyawan"', 'APPPATH\\Controllers\\User.php', 302)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->edit('Anggi')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 00:43:18 --> Undefined array key "jabatan_karyawan"
+in APPPATH\Controllers\User.php on line 302.
+ 1 APPPATH\Controllers\User.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jabatan_karyawan"', 'APPPATH\\Controllers\\User.php', 302)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->edit('Anggi')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 00:45:26 --> Undefined array key "jabatan_karyawan"
+in APPPATH\Controllers\User.php on line 302.
+ 1 APPPATH\Controllers\User.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jabatan_karyawan"', 'APPPATH\\Controllers\\User.php', 302)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->edit('Anggi')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 00:45:27 --> Undefined array key "jabatan_karyawan"
+in APPPATH\Controllers\User.php on line 302.
+ 1 APPPATH\Controllers\User.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jabatan_karyawan"', 'APPPATH\\Controllers\\User.php', 302)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->edit('Anggi')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 00:45:32 --> Undefined array key "jabatan_karyawan"
+in APPPATH\Controllers\User.php on line 302.
+ 1 APPPATH\Controllers\User.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jabatan_karyawan"', 'APPPATH\\Controllers\\User.php', 302)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->edit('Anggi')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 01:38:27 --> Class "App\Controllers\ModelInputAbsensiKaryawan" not found
+in APPPATH\Controllers\Absensi.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Absensi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 01:38:55 --> Undefined array key "username_peng"
+in APPPATH\Views\absensi\viewabsensi.php on line 85.
+ 1 APPPATH\Views\absensi\viewabsensi.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username_peng"', 'APPPATH\\Views\\absensi\\viewabsensi.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\absensi\\viewabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('absensi/viewabsensi', [], true)
+ 5 APPPATH\Controllers\Absensi.php(40): view('absensi/viewabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Absensi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 01:45:49 --> Undefined array key "peng_level"
+in APPPATH\Views\absensi\viewabsensi.php on line 95.
+ 1 APPPATH\Views\absensi\viewabsensi.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "peng_level"', 'APPPATH\\Views\\absensi\\viewabsensi.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\absensi\\viewabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('absensi/viewabsensi', [], true)
+ 5 APPPATH\Controllers\Absensi.php(40): view('absensi/viewabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Absensi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 01:46:54 --> Undefined array key "username_peng"
+in APPPATH\Views\absensi\viewabsensi.php on line 114.
+ 1 APPPATH\Views\absensi\viewabsensi.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username_peng"', 'APPPATH\\Views\\absensi\\viewabsensi.php', 114)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\absensi\\viewabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('absensi/viewabsensi', [], true)
+ 5 APPPATH\Controllers\Absensi.php(40): view('absensi/viewabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Absensi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

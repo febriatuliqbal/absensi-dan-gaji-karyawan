@@ -1,0 +1,48 @@
+CRITICAL - 2022-12-30 07:05:51 --> unlink(datagambar/): Is a directory
+in APPPATH\Controllers\UploudFoto.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/): Is a directory', 'APPPATH\\Controllers\\UploudFoto.php', 105)
+ 2 APPPATH\Controllers\UploudFoto.php(105): unlink('FCPATH\\datagambar')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('3333311')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 07:06:03 --> unlink(datagambar/): Is a directory
+in APPPATH\Controllers\UploudFoto.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/): Is a directory', 'APPPATH\\Controllers\\UploudFoto.php', 105)
+ 2 APPPATH\Controllers\UploudFoto.php(105): unlink('FCPATH\\datagambar')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('3333311')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 07:15:31 --> unlink(datagambar/): Is a directory
+in APPPATH\Controllers\UploudFoto.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/): Is a directory', 'APPPATH\\Controllers\\UploudFoto.php', 105)
+ 2 APPPATH\Controllers\UploudFoto.php(105): unlink('FCPATH\\datagambar')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('3333311')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 07:15:46 --> unlink(datagambar/): Is a directory
+in APPPATH\Controllers\UploudFoto.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/): Is a directory', 'APPPATH\\Controllers\\UploudFoto.php', 105)
+ 2 APPPATH\Controllers\UploudFoto.php(105): unlink('FCPATH\\datagambar')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('3333311')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 07:28:25 --> unlink(datagambar/): Is a directory
+in APPPATH\Controllers\UploudFoto.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/): Is a directory', 'APPPATH\\Controllers\\UploudFoto.php', 105)
+ 2 APPPATH\Controllers\UploudFoto.php(105): unlink('FCPATH\\datagambar')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('3333311')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-30 07:31:27 --> unlink(datagambar/): Is a directory
+in APPPATH\Controllers\UploudFoto.php on line 104.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(datagambar/): Is a directory', 'APPPATH\\Controllers\\UploudFoto.php', 104)
+ 2 APPPATH\Controllers\UploudFoto.php(104): unlink('FCPATH\\datagambar')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UploudFoto->update('3333311')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploudFoto))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

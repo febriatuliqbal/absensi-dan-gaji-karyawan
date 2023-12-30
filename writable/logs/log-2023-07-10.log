@@ -1,0 +1,375 @@
+CRITICAL - 2023-07-10 00:02:12 --> Undefined array key "pengpass"
+in APPPATH\Controllers\Login.php on line 78.
+ 1 APPPATH\Controllers\Login.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pengpass"', 'APPPATH\\Controllers\\Login.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cekuser()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 00:12:49 --> Undefined array key "penglevel"
+in APPPATH\Controllers\Login.php on line 84.
+ 1 APPPATH\Controllers\Login.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "penglevel"', 'APPPATH\\Controllers\\Login.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cekuser()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:02:16 --> Invalid file: beranda/datadetail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda/datadetail.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/datadetail', [], true)
+ 3 APPPATH\Controllers\Home.php(39): view('beranda/datadetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:02:32 --> Invalid file: beranda/datadetail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda/datadetail.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/datadetail', [], true)
+ 3 APPPATH\Controllers\Home.php(39): view('beranda/datadetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:03:23 --> Undefined variable $nohalaman
+in APPPATH\Views\beranda\dataabsensi.php on line 8.
+ 1 APPPATH\Views\beranda\dataabsensi.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\beranda\\dataabsensi.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\dataabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/dataabsensi', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('beranda/dataabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:03:26 --> Undefined variable $nohalaman
+in APPPATH\Views\beranda\dataabsensi.php on line 8.
+ 1 APPPATH\Views\beranda\dataabsensi.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\beranda\\dataabsensi.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\dataabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/dataabsensi', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('beranda/dataabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:03:39 --> Undefined variable $nohalaman
+in APPPATH\Views\beranda\dataabsensi.php on line 8.
+ 1 APPPATH\Views\beranda\dataabsensi.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\beranda\\dataabsensi.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\dataabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/dataabsensi', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('beranda/dataabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:04:10 --> Undefined variable $nohalaman
+in APPPATH\Views\beranda\dataabsensi.php on line 8.
+ 1 APPPATH\Views\beranda\dataabsensi.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\beranda\\dataabsensi.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\dataabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/dataabsensi', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('beranda/dataabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:04:28 --> Undefined variable $nohalaman
+in APPPATH\Views\beranda\dataabsensi.php on line 8.
+ 1 APPPATH\Views\beranda\dataabsensi.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\beranda\\dataabsensi.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\dataabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/dataabsensi', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('beranda/dataabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:06:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\beranda\dataabsensi.php on line 30.
+ 1 APPPATH\Views\beranda\dataabsensi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\beranda\\dataabsensi.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\dataabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/dataabsensi', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('beranda/dataabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:07:39 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Views\beranda\dataabsensi.php(9): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\dataabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/dataabsensi', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('beranda/dataabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:07:59 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Views\beranda\dataabsensi.php(9): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\dataabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/dataabsensi', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('beranda/dataabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:08:46 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Views\beranda\dataabsensi.php(9): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\dataabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/dataabsensi', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('beranda/dataabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:08:51 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Views\beranda\dataabsensi.php(9): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\dataabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/dataabsensi', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('beranda/dataabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:10:11 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Views\beranda\dataabsensi.php(9): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\dataabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/dataabsensi', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('beranda/dataabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:10:48 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Views\beranda\dataabsensi.php(9): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\dataabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/dataabsensi', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('beranda/dataabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:12:38 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Views\beranda\dataabsensi.php(9): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\dataabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/dataabsensi', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('beranda/dataabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:13:36 --> Undefined variable $id
+in APPPATH\Controllers\Home.php on line 30.
+ 1 APPPATH\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Home.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:14:00 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Views\beranda\dataabsensi.php(9): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\dataabsensi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/dataabsensi', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('beranda/dataabsensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:16:35 --> CodeIgniter\Database\BaseBuilder::getWhere(): Argument #2 ($limit) must be of type ?int, string given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php on line 772
+in SYSTEMPATH\Database\BaseBuilder.php on line 1706.
+ 1 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->getWhere('tgl_absensi', '2023-07-10')
+ 2 APPPATH\Controllers\Home.php(30): CodeIgniter\Model->__call('getWhere', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:26:37 --> Invalid file: beranda/dataabsensi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda/dataabsensi.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/dataabsensi', [], true)
+ 3 APPPATH\Controllers\Home.php(39): view('beranda/dataabsensi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailabsensi()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:42:50 --> Undefined variable $bulan
+in APPPATH\Views\absensi\dataabsensiperhari.php on line 40.
+ 1 APPPATH\Views\absensi\dataabsensiperhari.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Views\\absensi\\dataabsensiperhari.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\absensi\\dataabsensiperhari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('absensi/dataabsensiperhari', [], true)
+ 5 APPPATH\Controllers\Absensi.php(85): view('absensi/dataabsensiperhari')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Absensi->dataabsensiperhari()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 03:45:48 --> Undefined variable $pager
+in APPPATH\Views\absensi\dataabsensiperhari.php on line 59.
+ 1 APPPATH\Views\absensi\dataabsensiperhari.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'APPPATH\\Views\\absensi\\dataabsensiperhari.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\absensi\\dataabsensiperhari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('absensi/dataabsensiperhari', [], true)
+ 5 APPPATH\Controllers\Absensi.php(85): view('absensi/dataabsensiperhari')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Absensi->dataabsensiperhari()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:08:26 --> Call to undefined method App\Models\ModelDetailHutang::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Home.php(18): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:08:58 --> Call to undefined method App\Models\ModelDetailHutang::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Home.php(18): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:08:59 --> Call to undefined method App\Models\ModelDetailHutang::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Home.php(18): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:09:09 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:09:22 --> Call to undefined method App\Models\ModelDetailHutang::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Home.php(18): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:11:31 --> Call to undefined method App\Models\ModelDetailHutang::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Home.php(18): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:11:32 --> Call to undefined method App\Models\ModelDetailHutang::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Home.php(18): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:12:20 --> Call to undefined method App\Models\ModelDetailHutang::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Home.php(19): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:12:21 --> Call to undefined method App\Models\ModelDetailHutang::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Home.php(19): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:12:22 --> Call to undefined method App\Models\ModelDetailHutang::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Home.php(19): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:12:23 --> Call to undefined method App\Models\ModelDetailHutang::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Home.php(19): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:12:35 --> Call to undefined method App\Models\ModelDetailHutang::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Home.php(19): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:13:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 20.
+ 1 APPPATH\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:50:38 --> syntax error, unexpected end of file
+in APPPATH\Views\beranda\beranda.php on line 591.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/beranda', [], true)
+ 3 APPPATH\Controllers\Home.php(49): view('beranda/beranda', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:53:34 --> Undefined variable $nohalaman
+in APPPATH\Views\beranda\beranda.php on line 355.
+ 1 APPPATH\Views\beranda\beranda.php(355): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\beranda\\beranda.php', 355)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('beranda/beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:53:49 --> Undefined array key "foto_masuk"
+in APPPATH\Views\beranda\beranda.php on line 380.
+ 1 APPPATH\Views\beranda\beranda.php(380): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_masuk"', 'APPPATH\\Views\\beranda\\beranda.php', 380)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('beranda/beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:54:14 --> Undefined array key "id_absensi"
+in APPPATH\Views\beranda\beranda.php on line 373.
+ 1 APPPATH\Views\beranda\beranda.php(373): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_absensi"', 'APPPATH\\Views\\beranda\\beranda.php', 373)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('beranda/beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 04:55:28 --> Undefined array key "tgl_absensi"
+in APPPATH\Views\beranda\beranda.php on line 377.
+ 1 APPPATH\Views\beranda\beranda.php(377): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_absensi"', 'APPPATH\\Views\\beranda\\beranda.php', 377)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\beranda\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('beranda/beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('beranda/beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

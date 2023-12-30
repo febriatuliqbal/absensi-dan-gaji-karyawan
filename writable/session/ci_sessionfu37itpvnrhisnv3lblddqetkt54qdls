@@ -1,0 +1,13 @@
+__ci_last_regenerate|i:1689540219;_ci_previous_url|s:72:"http://192.168.43.18/maadvertising.co.id/public/index.php/Absensi/tambah";iduser|s:13:"YuliandaFitri";namauser|s:13:"YuliandaFitri";idlevel|s:1:"1";error|s:506:"
+             <div class="alert alert-danger bg-danger text-light border-0 alert-dismissible fade show" role="alert">
+        	<!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>Username Tidak Boleh Kosong</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div> ";__ci_vars|a:1:{s:5:"error";s:3:"old";}

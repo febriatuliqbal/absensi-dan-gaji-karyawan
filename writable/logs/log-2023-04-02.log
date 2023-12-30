@@ -1,0 +1,41 @@
+ERROR - 2023-04-02 23:09:21 --> mysqli_sql_exception: Unknown column 'Hadir' in 'order clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(3, 0)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(1110): CodeIgniter\BaseModel->findAll(3, 0)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\EstimasiGajiKaryawanApi.php(20): CodeIgniter\BaseModel->paginate(3)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\EstimasiGajiKaryawanApi->index()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstimasiGajiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-04-02 23:09:21 --> Unknown column 'Hadir' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `gaji_karyawan`
+ORDER BY `Hadir` DESC
+ LIMIT 3', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `gaji_karyawan`
+ORDER BY `Hadir` DESC
+ LIMIT 3')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `gaji_karyawan`
+ORDER BY `Hadir` DESC
+ LIMIT 3')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `gaji_karyawan`
+ORDER BY `Hadir` DESC
+ LIMIT 3', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(3, 0)
+ 7 SYSTEMPATH\BaseModel.php(1110): CodeIgniter\BaseModel->findAll(3, 0)
+ 8 APPPATH\Controllers\EstimasiGajiKaryawanApi.php(20): CodeIgniter\BaseModel->paginate(3)
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\EstimasiGajiKaryawanApi->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EstimasiGajiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

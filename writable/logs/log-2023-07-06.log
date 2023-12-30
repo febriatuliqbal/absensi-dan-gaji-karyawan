@@ -1,0 +1,153 @@
+CRITICAL - 2023-07-06 00:12:04 --> Undefined property: App\Controllers\Penggajian::$DetailKelalaian
+in APPPATH\Controllers\Penggajian.php on line 196.
+ 1 APPPATH\Controllers\Penggajian.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Penggajian::$DetailKelalaian', 'APPPATH\\Controllers\\Penggajian.php', 196)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->dataperbulan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 00:30:33 --> Undefined variable $urutan
+in APPPATH\Views\gaji\datadetail.php on line 46.
+ 1 APPPATH\Views\gaji\datadetail.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $urutan', 'APPPATH\\Views\\gaji\\datadetail.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\gaji\\datadetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 5 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 00:32:25 --> Undefined variable $urutan
+in APPPATH\Views\gaji\datadetail.php on line 51.
+ 1 APPPATH\Views\gaji\datadetail.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $urutan', 'APPPATH\\Views\\gaji\\datadetail.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\gaji\\datadetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 5 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 01:35:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::OrderBy()
+in APPPATH\Controllers\Penggajian.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 01:36:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::OrderBy()
+in APPPATH\Controllers\Penggajian.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 02:31:43 --> Call to a member function update() on array
+in APPPATH\Controllers\Penggajian.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->simpanbonus()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 02:32:44 --> Call to a member function update() on array
+in APPPATH\Controllers\Penggajian.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->simpanbonus()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 02:33:40 --> Call to a member function update() on array
+in APPPATH\Controllers\Penggajian.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->simpanbonus()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 02:35:49 --> syntax error, unexpected identifier "Detail", expecting "]"
+in APPPATH\Controllers\Penggajian.php on line 280.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Penggajian/inputbonus')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Penggajian/inputbonus')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('Penggajian/inputbonus')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 02:35:53 --> syntax error, unexpected identifier "Detail", expecting "]"
+in APPPATH\Controllers\Penggajian.php on line 280.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Penggajian/tambah')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Penggajian/tambah')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('Penggajian/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 02:37:45 --> Call to a member function update() on array
+in APPPATH\Controllers\Penggajian.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->simpanbonus()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 03:45:43 --> Undefined variable $tglawal
+in APPPATH\Views\laporan\slipgajikaryawan.php on line 23.
+ 1 APPPATH\Views\laporan\slipgajikaryawan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tglawal', 'APPPATH\\Views\\laporan\\slipgajikaryawan.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\slipgajikaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/slipgajikaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(26): view('laporan/slipgajikaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakslipgaji('16-0723')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 05:20:35 --> Call to a member function getResultArray() on array
+in APPPATH\Views\laporan\slipgajikaryawan.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/slipgajikaryawan', [], true)
+ 4 APPPATH\Controllers\Laporan.php(26): view('laporan/slipgajikaryawan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakslipgaji('16-0723')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 05:21:36 --> Cannot access offset of type string on string
+in APPPATH\Views\laporan\slipgajikaryawan.php on line 55.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/slipgajikaryawan', [], true)
+ 4 APPPATH\Controllers\Laporan.php(26): view('laporan/slipgajikaryawan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakslipgaji('16-0723')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 05:22:09 --> Call to a member function getResultArray() on array
+in APPPATH\Views\laporan\slipgajikaryawan.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/slipgajikaryawan', [], true)
+ 4 APPPATH\Controllers\Laporan.php(26): view('laporan/slipgajikaryawan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakslipgaji('16-0723')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 05:24:17 --> Call to a member function getResultArray() on array
+in APPPATH\Views\laporan\slipgajikaryawan.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/slipgajikaryawan', [], true)
+ 4 APPPATH\Controllers\Laporan.php(26): view('laporan/slipgajikaryawan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakslipgaji('16-0723')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 05:34:11 --> Cannot access offset of type string on string
+in APPPATH\Views\laporan\slipgajikaryawan.php on line 66.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/slipgajikaryawan', [], true)
+ 4 APPPATH\Controllers\Laporan.php(50): view('laporan/slipgajikaryawan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakslipgaji('16-0723')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 06:12:37 --> Undefined variable $potongankehadiran
+in APPPATH\Views\laporan\slipgajikaryawan.php on line 165.
+ 1 APPPATH\Views\laporan\slipgajikaryawan.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $potongankehadiran', 'APPPATH\\Views\\laporan\\slipgajikaryawan.php', 165)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\slipgajikaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/slipgajikaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(52): view('laporan/slipgajikaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakslipgaji('18-0723')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

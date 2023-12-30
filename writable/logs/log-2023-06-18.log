@@ -1,0 +1,208 @@
+CRITICAL - 2023-06-18 17:07:09 --> Undefined property: App\Controllers\Hutang::$karyawan
+in APPPATH\Controllers\Hutang.php on line 33.
+ 1 APPPATH\Controllers\Hutang.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Hutang::$karyawan', 'APPPATH\\Controllers\\Hutang.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 17:07:29 --> Invalid file: hutang/viewkaryawan.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hutang/viewkaryawan.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewkaryawan', [], true)
+ 3 APPPATH\Controllers\Hutang.php(39): view('hutang/viewkaryawan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 17:08:25 --> Undefined array key "foto_karyawan"
+in APPPATH\Views\hutang\viewhutang.php on line 91.
+ 1 APPPATH\Views\hutang\viewhutang.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_karyawan"', 'APPPATH\\Views\\hutang\\viewhutang.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\viewhutang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutang', [], true)
+ 5 APPPATH\Controllers\Hutang.php(40): view('hutang/viewhutang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 17:11:41 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Views\hutang\viewhutang.php on line 101.
+ 1 APPPATH\Views\hutang\viewhutang.php(101): number_format('Untuk keperluan bayar paket ', 0)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\viewhutang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutang', [], true)
+ 5 APPPATH\Controllers\Hutang.php(40): view('hutang/viewhutang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 17:23:31 --> Unsupported operand types: string + string
+in APPPATH\Views\hutang\viewhutang.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutang', [], true)
+ 4 APPPATH\Controllers\Hutang.php(40): view('hutang/viewhutang', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 17:24:28 --> Unsupported operand types: string + string
+in APPPATH\Views\hutang\viewhutang.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutang', [], true)
+ 4 APPPATH\Controllers\Hutang.php(40): view('hutang/viewhutang', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 17:39:29 --> Call to a member function countAllResults() on null
+in APPPATH\Controllers\Hutang.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 23:18:29 --> Undefined variable $cari
+in APPPATH\Controllers\Hutang.php on line 56.
+ 1 APPPATH\Controllers\Hutang.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Controllers\\Hutang.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 23:18:51 --> Undefined variable $cari
+in APPPATH\Controllers\Hutang.php on line 65.
+ 1 APPPATH\Controllers\Hutang.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Controllers\\Hutang.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 23:19:59 --> Undefined array key "nama_karyawan"
+in APPPATH\Views\hutang\viewhutangperbulan.php on line 108.
+ 1 APPPATH\Views\hutang\viewhutangperbulan.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_karyawan"', 'APPPATH\\Views\\hutang\\viewhutangperbulan.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\viewhutangperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutangperbulan', [], true)
+ 5 APPPATH\Controllers\Hutang.php(67): view('hutang/viewhutangperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 23:20:10 --> Undefined array key "nama_karyawan"
+in APPPATH\Views\hutang\viewhutangperbulan.php on line 108.
+ 1 APPPATH\Views\hutang\viewhutangperbulan.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_karyawan"', 'APPPATH\\Views\\hutang\\viewhutangperbulan.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\viewhutangperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutangperbulan', [], true)
+ 5 APPPATH\Controllers\Hutang.php(68): view('hutang/viewhutangperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 23:37:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\hutang\viewhutangperbulan.php on line 104.
+ 1 APPPATH\Views\hutang\viewhutangperbulan.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\hutang\\viewhutangperbulan.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\viewhutangperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutangperbulan', [], true)
+ 5 APPPATH\Controllers\Hutang.php(69): view('hutang/viewhutangperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 23:37:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\hutang\viewhutangperbulan.php on line 104.
+ 1 APPPATH\Views\hutang\viewhutangperbulan.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\hutang\\viewhutangperbulan.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\viewhutangperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutangperbulan', [], true)
+ 5 APPPATH\Controllers\Hutang.php(69): view('hutang/viewhutangperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 23:37:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\hutang\viewhutangperbulan.php on line 104.
+ 1 APPPATH\Views\hutang\viewhutangperbulan.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\hutang\\viewhutangperbulan.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\viewhutangperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutangperbulan', [], true)
+ 5 APPPATH\Controllers\Hutang.php(69): view('hutang/viewhutangperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 23:37:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\hutang\viewhutangperbulan.php on line 104.
+ 1 APPPATH\Views\hutang\viewhutangperbulan.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\hutang\\viewhutangperbulan.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\viewhutangperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutangperbulan', [], true)
+ 5 APPPATH\Controllers\Hutang.php(69): view('hutang/viewhutangperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 23:37:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\hutang\viewhutangperbulan.php on line 104.
+ 1 APPPATH\Views\hutang\viewhutangperbulan.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\hutang\\viewhutangperbulan.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\viewhutangperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutangperbulan', [], true)
+ 5 APPPATH\Controllers\Hutang.php(69): view('hutang/viewhutangperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 23:37:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\hutang\viewhutangperbulan.php on line 104.
+ 1 APPPATH\Views\hutang\viewhutangperbulan.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\hutang\\viewhutangperbulan.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\viewhutangperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutangperbulan', [], true)
+ 5 APPPATH\Controllers\Hutang.php(69): view('hutang/viewhutangperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 23:37:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\hutang\viewhutangperbulan.php on line 104.
+ 1 APPPATH\Views\hutang\viewhutangperbulan.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\hutang\\viewhutangperbulan.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\viewhutangperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutangperbulan', [], true)
+ 5 APPPATH\Controllers\Hutang.php(69): view('hutang/viewhutangperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 23:39:45 --> Call to a member function links() on null
+in APPPATH\Views\hutang\viewhutangperbulan.php on line 151.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutangperbulan', [], true)
+ 4 APPPATH\Controllers\Hutang.php(69): view('hutang/viewhutangperbulan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 23:40:06 --> Call to a member function links() on null
+in APPPATH\Views\hutang\viewhutangperbulan.php on line 151.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutangperbulan', [], true)
+ 4 APPPATH\Controllers\Hutang.php(69): view('hutang/viewhutangperbulan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 23:58:31 --> Undefined variable $tahun
+in APPPATH\Views\hutang\viewhutangperbulan.php on line 83.
+ 1 APPPATH\Views\hutang\viewhutangperbulan.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Views\\hutang\\viewhutangperbulan.php', 83)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\viewhutangperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutangperbulan', [], true)
+ 5 APPPATH\Controllers\Hutang.php(69): view('hutang/viewhutangperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

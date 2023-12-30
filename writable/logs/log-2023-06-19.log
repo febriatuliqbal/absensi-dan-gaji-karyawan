@@ -1,0 +1,126 @@
+CRITICAL - 2023-06-19 00:10:29 --> Undefined variable $tahun
+in APPPATH\Controllers\Hutang.php on line 61.
+ 1 APPPATH\Controllers\Hutang.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Controllers\\Hutang.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-19 00:37:22 --> mysqli_sql_exception: Table 'db_skripsi_absensi.tb_hutang' doesn't exist in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Hutang.php(61): CodeIgniter\Model->countAllResults()
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-19 00:37:22 --> Table 'db_skripsi_absensi.tb_hutang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`userkaryawan_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`userkaryawan_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`userkaryawan_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`userkaryawan_hutang`
+WHERE MONTH(tgl_hutang) = :MONTH(tgl_hutang):
+AND YEAR(tgl_hutang) = :YEAR(tgl_hutang):', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Controllers\Hutang.php(61): CodeIgniter\Model->countAllResults()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 00:44:22 --> Class "App\Models\ModelHutang" not found
+in APPPATH\Controllers\Hutang.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Hutang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 01:07:29 --> Class "App\Models\ModelHutang" not found
+in APPPATH\Controllers\Hutang.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Hutang->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 01:09:50 --> Call to a member function links() on null
+in APPPATH\Views\hutang\viewhutangperbulan.php on line 239.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutangperbulan', [], true)
+ 4 APPPATH\Controllers\Hutang.php(79): view('hutang/viewhutangperbulan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 02:33:31 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Hutang.php on line 96.
+ 1 APPPATH\Controllers\Hutang.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Hutang.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 02:33:34 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Hutang.php on line 96.
+ 1 APPPATH\Controllers\Hutang.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Hutang.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 02:33:55 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Hutang.php on line 96.
+ 1 APPPATH\Controllers\Hutang.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Hutang.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 02:35:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Hutang.php on line 96.
+ 1 APPPATH\Controllers\Hutang.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Hutang.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 02:35:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Hutang.php on line 96.
+ 1 APPPATH\Controllers\Hutang.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Hutang.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 02:35:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Hutang.php on line 96.
+ 1 APPPATH\Controllers\Hutang.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Hutang.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 02:36:17 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Hutang.php on line 96.
+ 1 APPPATH\Controllers\Hutang.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Hutang.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 02:38:29 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Hutang.php on line 96.
+ 1 APPPATH\Controllers\Hutang.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Hutang.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

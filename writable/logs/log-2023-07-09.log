@@ -1,0 +1,57 @@
+CRITICAL - 2023-07-09 22:23:05 --> Undefined array key "subtotal_kelalaian"
+in APPPATH\Views\laporan\cetaklaporanlemburkaryawanperbulan.php on line 108.
+ 1 APPPATH\Views\laporan\cetaklaporanlemburkaryawanperbulan.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_kelalaian"', 'APPPATH\\Views\\laporan\\cetaklaporanlemburkaryawanperbulan.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanlemburkaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanlemburkaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(662): view('laporan/cetaklaporanlemburkaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanlemburkaryawanperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-09 22:26:31 --> Undefined array key "ket_kelalaian"
+in APPPATH\Views\laporan\cetaklaporanlemburkaryawanperbulan.php on line 134.
+ 1 APPPATH\Views\laporan\cetaklaporanlemburkaryawanperbulan.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ket_kelalaian"', 'APPPATH\\Views\\laporan\\cetaklaporanlemburkaryawanperbulan.php', 134)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanlemburkaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanlemburkaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(662): view('laporan/cetaklaporanlemburkaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanlemburkaryawanperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-09 23:57:47 --> mysqli_sql_exception: Unknown column 'tb_pengguna.id' in 'where clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'ddf')
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Login.php(66): CodeIgniter\BaseModel->find('ddf')
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\Login->cekuser()
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-09 23:57:47 --> Unknown column 'tb_pengguna.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tb_pengguna`
+WHERE `tb_pengguna`.`id` = \'ddf\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_pengguna`
+WHERE `tb_pengguna`.`id` = \'ddf\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_pengguna`
+WHERE `tb_pengguna`.`id` = \'ddf\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_pengguna`
+WHERE `tb_pengguna`.`id` = :tb_pengguna.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'ddf')
+ 7 APPPATH\Controllers\Login.php(66): CodeIgniter\BaseModel->find('ddf')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cekuser()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

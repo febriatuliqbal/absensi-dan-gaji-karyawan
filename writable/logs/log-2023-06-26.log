@@ -1,0 +1,178 @@
+CRITICAL - 2023-06-26 00:02:26 --> Class "App\Controllers\ModelKelalaian" not found
+in APPPATH\Controllers\Kelalaian.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->hapus()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 00:04:00 --> Undefined array key "subtotal_kelalaian"
+in APPPATH\Controllers\Kelalaian.php on line 97.
+ 1 APPPATH\Controllers\Kelalaian.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_kelalaian"', 'APPPATH\\Controllers\\Kelalaian.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 00:04:08 --> Undefined array key "subtotal_kelalaian"
+in APPPATH\Controllers\Kelalaian.php on line 97.
+ 1 APPPATH\Controllers\Kelalaian.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_kelalaian"', 'APPPATH\\Controllers\\Kelalaian.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 00:04:15 --> Undefined array key "subtotal_kelalaian"
+in APPPATH\Controllers\Kelalaian.php on line 97.
+ 1 APPPATH\Controllers\Kelalaian.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_kelalaian"', 'APPPATH\\Controllers\\Kelalaian.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 00:05:25 --> Undefined array key "subtotal_kelalaian"
+in APPPATH\Controllers\Kelalaian.php on line 97.
+ 1 APPPATH\Controllers\Kelalaian.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_kelalaian"', 'APPPATH\\Controllers\\Kelalaian.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 00:07:03 --> Undefined array key "subtotal_kelalaian"
+in APPPATH\Controllers\Kelalaian.php on line 97.
+ 1 APPPATH\Controllers\Kelalaian.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_kelalaian"', 'APPPATH\\Controllers\\Kelalaian.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 00:10:42 --> Undefined array key "subtotal_kelalaian"
+in APPPATH\Controllers\Kelalaian.php on line 97.
+ 1 APPPATH\Controllers\Kelalaian.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_kelalaian"', 'APPPATH\\Controllers\\Kelalaian.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 00:11:10 --> Undefined array key "subtotal_kelalaian"
+in APPPATH\Controllers\Kelalaian.php on line 97.
+ 1 APPPATH\Controllers\Kelalaian.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_kelalaian"', 'APPPATH\\Controllers\\Kelalaian.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 00:12:24 --> Undefined array key "subtotal_kelalaian"
+in APPPATH\Controllers\Kelalaian.php on line 97.
+ 1 APPPATH\Controllers\Kelalaian.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_kelalaian"', 'APPPATH\\Controllers\\Kelalaian.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 00:13:27 --> Array to string conversion
+in APPPATH\Controllers\Kelalaian.php on line 98.
+ 1 APPPATH\Controllers\Kelalaian.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Kelalaian.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 00:15:19 --> Undefined array key "subtotal_kelalaian"
+in APPPATH\Controllers\Kelalaian.php on line 99.
+ 1 APPPATH\Controllers\Kelalaian.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_kelalaian"', 'APPPATH\\Controllers\\Kelalaian.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 00:18:10 --> Undefined array key "subtotal_kelalaian"
+in APPPATH\Controllers\Kelalaian.php on line 98.
+ 1 APPPATH\Controllers\Kelalaian.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_kelalaian"', 'APPPATH\\Controllers\\Kelalaian.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 00:19:23 --> Array to string conversion
+in APPPATH\Controllers\Kelalaian.php on line 98.
+ 1 APPPATH\Controllers\Kelalaian.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Kelalaian.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 00:26:00 --> Undefined array key "subtotal_kelalaian"
+in APPPATH\Controllers\Kelalaian.php on line 97.
+ 1 APPPATH\Controllers\Kelalaian.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_kelalaian"', 'APPPATH\\Controllers\\Kelalaian.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-26 00:28:45 --> Undefined array key "subtotal_kelalaian"
+in APPPATH\Controllers\Kelalaian.php on line 97.
+ 1 APPPATH\Controllers\Kelalaian.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_kelalaian"', 'APPPATH\\Controllers\\Kelalaian.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-26 01:27:11 --> mysqli_sql_exception: Table 'db_skripsi_absensi.gaji_karyawan' doesn't exist in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\RekapAbsensiKaryawan.php(41): CodeIgniter\Model->__call('get', Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\RekapAbsensiKaryawan->show('1')
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RekapAbsensiKaryawan))
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-26 01:27:11 --> Table 'db_skripsi_absensi.gaji_karyawan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `gaji_karyawan`
+WHERE `id_gaji` LIKE \'%1%\' ESCAPE \'!\'
+OR  `id_gaji` LIKE \'%1%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `gaji_karyawan`
+WHERE `id_gaji` LIKE \'%1%\' ESCAPE \'!\'
+OR  `id_gaji` LIKE \'%1%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `gaji_karyawan`
+WHERE `id_gaji` LIKE \'%1%\' ESCAPE \'!\'
+OR  `id_gaji` LIKE \'%1%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `gaji_karyawan`
+WHERE `id_gaji` LIKE :id_gaji: ESCAPE \'!\'
+OR  `id_gaji` LIKE :id_gaji.1: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\API\RekapAbsensiKaryawan.php(41): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\RekapAbsensiKaryawan->show('1')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RekapAbsensiKaryawan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-26 01:45:32 --> mysqli_sql_exception: Unknown column 'id_gaji' in 'where clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\RekapInformasiDataKaryawan.php(41): CodeIgniter\Model->__call('get', Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\RekapInformasiDataKaryawan->show('1')
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RekapInformasiDataKaryawan))
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-26 01:45:32 --> Unknown column 'id_gaji' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tb_informasi_karyawan`
+WHERE `id_gaji` LIKE \'%1%\' ESCAPE \'!\'
+OR  `id_gaji` LIKE \'%1%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_informasi_karyawan`
+WHERE `id_gaji` LIKE \'%1%\' ESCAPE \'!\'
+OR  `id_gaji` LIKE \'%1%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_informasi_karyawan`
+WHERE `id_gaji` LIKE \'%1%\' ESCAPE \'!\'
+OR  `id_gaji` LIKE \'%1%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_informasi_karyawan`
+WHERE `id_gaji` LIKE :id_gaji: ESCAPE \'!\'
+OR  `id_gaji` LIKE :id_gaji.1: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\API\RekapInformasiDataKaryawan.php(41): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\RekapInformasiDataKaryawan->show('1')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RekapInformasiDataKaryawan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

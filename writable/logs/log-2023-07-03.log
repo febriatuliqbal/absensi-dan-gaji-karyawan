@@ -1,0 +1,267 @@
+CRITICAL - 2023-07-03 01:18:59 --> Unsupported operand types: string + int
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 365.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:20:05 --> Unsupported operand types: string + int
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 365.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:20:49 --> Unsupported operand types: string + int
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 365.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:20:49 --> Unsupported operand types: string + int
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 365.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:22:24 --> Unsupported operand types: string + int
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 365.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:22:46 --> Unsupported operand types: string + int
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 365.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:24:23 --> Unsupported operand types: string + int
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 365.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:24:29 --> Unsupported operand types: string + int
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 365.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:26:06 --> Unsupported operand types: string + int
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 365.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:27:58 --> Undefined variable $totaldata
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 353.
+ 1 APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php(353): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totaldata', 'APPPATH\\Controllers\\API\\InputAbsensiKeluarKaryawanApi.php', 353)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:32:57 --> Unsupported operand types: string + int
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 365.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:34:12 --> Unsupported operand types: string + int
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 365.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:34:50 --> Unsupported operand types: string + int
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 365.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:35:26 --> Unsupported operand types: string + int
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 365.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:36:27 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::count
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php(324): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:36:42 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::count
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php(324): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:38:49 --> Unsupported operand types: string + int
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:40:20 --> Unsupported operand types: string + int
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:40:56 --> Unsupported operand types: string + int
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:41:05 --> Call to undefined method App\Models\ModelRekapInformasiKaryawan::getResult
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php(327): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:41:18 --> count(): Argument #1 ($value) must be of type Countable|array, App\Models\ModelRekapInformasiKaryawan given
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 328.
+ 1 APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php(328): count(Object(App\Models\ModelRekapInformasiKaryawan))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:41:38 --> Unsupported operand types: string + string
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 370.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 01:42:42 --> count(): Argument #1 ($value) must be of type Countable|array, App\Models\ModelRekapInformasiKaryawan given
+in APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php on line 328.
+ 1 APPPATH\Controllers\API\InputAbsensiKeluarKaryawanApi.php(328): count(Object(App\Models\ModelRekapInformasiKaryawan))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\InputAbsensiKeluarKaryawanApi->update('18-20230703')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\InputAbsensiKeluarKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 02:22:28 --> Undefined variable $cari
+in APPPATH\Controllers\API\AbsensiKaryawanApi.php on line 20.
+ 1 APPPATH\Controllers\API\AbsensiKaryawanApi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'APPPATH\\Controllers\\API\\AbsensiKaryawanApi.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\AbsensiKaryawanApi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\AbsensiKaryawanApi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 02:57:35 --> Call to a member function get() on array
+in APPPATH\Controllers\API\AbsensiKaryawanApi.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\AbsensiKaryawanApi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\AbsensiKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 02:57:47 --> Undefined constant "App\Controllers\API\nomor"
+in APPPATH\Controllers\API\AbsensiKaryawanApi.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\AbsensiKaryawanApi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\AbsensiKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 02:58:33 --> Call to a member function get() on array
+in APPPATH\Controllers\API\AbsensiKaryawanApi.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\AbsensiKaryawanApi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\AbsensiKaryawanApi))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 03:00:32 --> mysqli_sql_exception: Unknown column 'id_detail_Kelalaian' in 'order clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(3, 0)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(1110): CodeIgniter\BaseModel->findAll(3, 0)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\AbsensiKaryawanApi.php(24): CodeIgniter\BaseModel->paginate(3)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\AbsensiKaryawanApi->index()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\AbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 03:00:32 --> Unknown column 'id_detail_Kelalaian' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tb_informasi_karyawan`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_user`
+WHERE `id_rekap_informasi` LIKE \'%010723%\' ESCAPE \'!\'
+ORDER BY `id_detail_Kelalaian` DESC
+ LIMIT 3', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_informasi_karyawan`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_user`
+WHERE `id_rekap_informasi` LIKE \'%010723%\' ESCAPE \'!\'
+ORDER BY `id_detail_Kelalaian` DESC
+ LIMIT 3')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_informasi_karyawan`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_user`
+WHERE `id_rekap_informasi` LIKE \'%010723%\' ESCAPE \'!\'
+ORDER BY `id_detail_Kelalaian` DESC
+ LIMIT 3')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_informasi_karyawan`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_user`
+WHERE `id_rekap_informasi` LIKE :id_rekap_informasi: ESCAPE \'!\'
+ORDER BY `id_detail_Kelalaian` DESC
+ LIMIT 3', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(3, 0)
+ 7 SYSTEMPATH\BaseModel.php(1110): CodeIgniter\BaseModel->findAll(3, 0)
+ 8 APPPATH\Controllers\API\AbsensiKaryawanApi.php(24): CodeIgniter\BaseModel->paginate(3)
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\AbsensiKaryawanApi->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\AbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-03 03:00:35 --> mysqli_sql_exception: Unknown column 'id_detail_Kelalaian' in 'order clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(3, 0)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(1110): CodeIgniter\BaseModel->findAll(3, 0)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\AbsensiKaryawanApi.php(24): CodeIgniter\BaseModel->paginate(3)
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\AbsensiKaryawanApi->index()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\AbsensiKaryawanApi))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-03 03:00:35 --> Unknown column 'id_detail_Kelalaian' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tb_informasi_karyawan`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_user`
+WHERE `id_rekap_informasi` LIKE \'%010723%\' ESCAPE \'!\'
+ORDER BY `id_detail_Kelalaian` DESC
+ LIMIT 3', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_informasi_karyawan`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_user`
+WHERE `id_rekap_informasi` LIKE \'%010723%\' ESCAPE \'!\'
+ORDER BY `id_detail_Kelalaian` DESC
+ LIMIT 3')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_informasi_karyawan`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_user`
+WHERE `id_rekap_informasi` LIKE \'%010723%\' ESCAPE \'!\'
+ORDER BY `id_detail_Kelalaian` DESC
+ LIMIT 3')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_informasi_karyawan`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_user`
+WHERE `id_rekap_informasi` LIKE :id_rekap_informasi: ESCAPE \'!\'
+ORDER BY `id_detail_Kelalaian` DESC
+ LIMIT 3', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(3, 0)
+ 7 SYSTEMPATH\BaseModel.php(1110): CodeIgniter\BaseModel->findAll(3, 0)
+ 8 APPPATH\Controllers\API\AbsensiKaryawanApi.php(24): CodeIgniter\BaseModel->paginate(3)
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\AbsensiKaryawanApi->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\AbsensiKaryawanApi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

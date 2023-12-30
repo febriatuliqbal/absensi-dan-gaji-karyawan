@@ -1,0 +1,5 @@
+__ci_last_regenerate|i:1689544259;_ci_previous_url|s:72:"http://192.168.43.18/maadvertising.co.id/public/index.php/Absensi/tambah";iduser|s:13:"YuliandaFitri";namauser|s:13:"YuliandaFitri";idlevel|s:1:"1";error|s:283:"
+         <div class="alert alert-danger bg-danger text-light border-0 alert-dismissible fade show" role="alert">
+            Data Absensi Sudah Ada
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div> ";__ci_vars|a:1:{s:5:"error";s:3:"old";}

@@ -1,0 +1,780 @@
+CRITICAL - 2023-07-08 02:11:12 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::tampildata_cari
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Absensi.php(30): CodeIgniter\Model->__call('tampildata_cari', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Absensi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 02:11:15 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::tampildata_cari
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Absensi.php(30): CodeIgniter\Model->__call('tampildata_cari', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Absensi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 02:11:20 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::tampildata_cari
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Absensi.php(30): CodeIgniter\Model->__call('tampildata_cari', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Absensi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 02:33:29 --> Undefined variable $nama_karyawan
+in APPPATH\Views\laporan\cetaklaporankaryawan.php on line 52.
+ 1 APPPATH\Views\laporan\cetaklaporankaryawan.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_karyawan', 'APPPATH\\Views\\laporan\\cetaklaporankaryawan.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporankaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporankaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(64): view('laporan/cetaklaporankaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->laporandatakaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 02:35:17 --> Undefined variable $nama_karyawan
+in APPPATH\Views\laporan\cetaklaporankaryawan.php on line 52.
+ 1 APPPATH\Views\laporan\cetaklaporankaryawan.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_karyawan', 'APPPATH\\Views\\laporan\\cetaklaporankaryawan.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporankaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporankaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(64): view('laporan/cetaklaporankaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->laporandatakaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 02:53:43 --> Undefined variable $nohalaman
+in APPPATH\Views\laporan\cetaklaporankaryawan.php on line 80.
+ 1 APPPATH\Views\laporan\cetaklaporankaryawan.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\laporan\\cetaklaporankaryawan.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporankaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporankaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(64): view('laporan/cetaklaporankaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->laporandatakaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 02:53:52 --> Undefined variable $tampildata
+in APPPATH\Views\laporan\cetaklaporankaryawan.php on line 80.
+ 1 APPPATH\Views\laporan\cetaklaporankaryawan.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tampildata', 'APPPATH\\Views\\laporan\\cetaklaporankaryawan.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporankaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporankaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(64): view('laporan/cetaklaporankaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->laporandatakaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 02:54:54 --> Undefined variable $nomor
+in APPPATH\Views\laporan\cetaklaporankaryawan.php on line 93.
+ 1 APPPATH\Views\laporan\cetaklaporankaryawan.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nomor', 'APPPATH\\Views\\laporan\\cetaklaporankaryawan.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporankaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporankaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(64): view('laporan/cetaklaporankaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->laporandatakaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:33:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\laporan\cetaklaporanabsensiperhari.php on line 98.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensiperhari.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 5 APPPATH\Controllers\Laporan.php(86): view('laporan/cetaklaporanabsensiperhari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:34:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\laporan\cetaklaporanabsensiperhari.php on line 98.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensiperhari.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 5 APPPATH\Controllers\Laporan.php(86): view('laporan/cetaklaporanabsensiperhari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:35:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\laporan\cetaklaporanabsensiperhari.php on line 98.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensiperhari.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 5 APPPATH\Controllers\Laporan.php(86): view('laporan/cetaklaporanabsensiperhari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:35:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\laporan\cetaklaporanabsensiperhari.php on line 98.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensiperhari.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 5 APPPATH\Controllers\Laporan.php(86): view('laporan/cetaklaporanabsensiperhari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:36:47 --> Cannot use object of type mysqli as array
+in APPPATH\Views\laporan\cetaklaporanabsensiperhari.php on line 98.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 4 APPPATH\Controllers\Laporan.php(87): view('laporan/cetaklaporanabsensiperhari', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:37:44 --> Cannot use object of type mysqli as array
+in APPPATH\Views\laporan\cetaklaporanabsensiperhari.php on line 100.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 4 APPPATH\Controllers\Laporan.php(87): view('laporan/cetaklaporanabsensiperhari', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:38:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\laporan\cetaklaporanabsensiperhari.php on line 100.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensiperhari.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 5 APPPATH\Controllers\Laporan.php(87): view('laporan/cetaklaporanabsensiperhari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:38:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\laporan\cetaklaporanabsensiperhari.php on line 100.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensiperhari.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 5 APPPATH\Controllers\Laporan.php(87): view('laporan/cetaklaporanabsensiperhari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:39:56 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\laporan\cetaklaporanabsensiperhari.php on line 91.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensiperhari.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 5 APPPATH\Controllers\Laporan.php(87): view('laporan/cetaklaporanabsensiperhari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:40:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\laporan\cetaklaporanabsensiperhari.php on line 100.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensiperhari.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 5 APPPATH\Controllers\Laporan.php(87): view('laporan/cetaklaporanabsensiperhari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:42:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\laporan\cetaklaporanabsensiperhari.php on line 100.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensiperhari.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 5 APPPATH\Controllers\Laporan.php(87): view('laporan/cetaklaporanabsensiperhari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:44:17 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::getresult
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensiperhari.php(91): CodeIgniter\Model->__call('getresult', [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 5 APPPATH\Controllers\Laporan.php(87): view('laporan/cetaklaporanabsensiperhari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:46:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\laporan\cetaklaporanabsensiperhari.php on line 100.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensiperhari.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 5 APPPATH\Controllers\Laporan.php(87): view('laporan/cetaklaporanabsensiperhari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:46:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\laporan\cetaklaporanabsensiperhari.php on line 100.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensiperhari.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 5 APPPATH\Controllers\Laporan.php(87): view('laporan/cetaklaporanabsensiperhari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:48:16 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Laporan.php(84): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:48:46 --> Call to a member function getResultArray() on array
+in APPPATH\Views\laporan\cetaklaporanabsensiperhari.php on line 91.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 4 APPPATH\Controllers\Laporan.php(87): view('laporan/cetaklaporanabsensiperhari', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:49:07 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensiperhari.php(91): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 5 APPPATH\Controllers\Laporan.php(87): view('laporan/cetaklaporanabsensiperhari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 04:49:31 --> Call to undefined method App\Models\ModelInputAbsensiKaryawan::getResult
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensiperhari.php(91): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensiperhari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensiperhari', [], true)
+ 5 APPPATH\Controllers\Laporan.php(87): view('laporan/cetaklaporanabsensiperhari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanabsensiperhari()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 05:10:17 --> Undefined variable $bulan
+in APPPATH\Views\laporan\laporanabsensikaryawan.php on line 93.
+ 1 APPPATH\Views\laporan\laporanabsensikaryawan.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Views\\laporan\\laporanabsensikaryawan.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\laporanabsensikaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/laporanabsensikaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(71): view('laporan/laporanabsensikaryawan')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->laporanabsensikaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 05:10:49 --> Undefined variable $tahun
+in APPPATH\Views\laporan\laporanabsensikaryawan.php on line 125.
+ 1 APPPATH\Views\laporan\laporanabsensikaryawan.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Views\\laporan\\laporanabsensikaryawan.php', 125)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\laporanabsensikaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/laporanabsensikaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(71): view('laporan/laporanabsensikaryawan')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->laporanabsensikaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 05:45:56 --> Undefined variable $tanggal
+in APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php on line 55.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensikaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(136): view('laporan/cetaklaporanabsensikaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporankaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 05:47:17 --> Undefined variable $tanggal
+in APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php on line 55.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensikaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(136): view('laporan/cetaklaporanabsensikaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporankaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 06:04:42 --> Undefined variable $Jabatan
+in APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php on line 85.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Jabatan', 'APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensikaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(140): view('laporan/cetaklaporanabsensikaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporankaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 06:04:46 --> Undefined variable $Jabatan
+in APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php on line 85.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Jabatan', 'APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensikaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(140): view('laporan/cetaklaporanabsensikaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporankaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 06:32:26 --> Undefined array key "Hadir_rekap_informasi"
+in APPPATH\Controllers\Laporan.php on line 146.
+ 1 APPPATH\Controllers\Laporan.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Hadir_rekap_informasi"', 'APPPATH\\Controllers\\Laporan.php', 146)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporankaryawanperbulanperkaryawan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 07:06:32 --> Undefined variable $nama
+in APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php on line 78.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensikaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(111): view('laporan/cetaklaporanabsensikaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakrekapkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 07:07:26 --> Undefined variable $Tahun
+in APPPATH\Views\laporan\cetakrekapabsensikaryawan.php on line 55.
+ 1 APPPATH\Views\laporan\cetakrekapabsensikaryawan.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tahun', 'APPPATH\\Views\\laporan\\cetakrekapabsensikaryawan.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetakrekapabsensikaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetakrekapabsensikaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(111): view('laporan/cetakrekapabsensikaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakrekapkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 07:08:27 --> Undefined variable $Tahun
+in APPPATH\Views\laporan\cetakrekapabsensikaryawan.php on line 55.
+ 1 APPPATH\Views\laporan\cetakrekapabsensikaryawan.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tahun', 'APPPATH\\Views\\laporan\\cetakrekapabsensikaryawan.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetakrekapabsensikaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetakrekapabsensikaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(111): view('laporan/cetakrekapabsensikaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakrekapkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 07:09:15 --> Undefined variable $Tahun
+in APPPATH\Views\laporan\cetakrekapabsensikaryawan.php on line 55.
+ 1 APPPATH\Views\laporan\cetakrekapabsensikaryawan.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tahun', 'APPPATH\\Views\\laporan\\cetakrekapabsensikaryawan.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetakrekapabsensikaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetakrekapabsensikaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(111): view('laporan/cetakrekapabsensikaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakrekapkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 07:09:57 --> Undefined variable $Tahun
+in APPPATH\Views\laporan\cetakrekapabsensikaryawan.php on line 55.
+ 1 APPPATH\Views\laporan\cetakrekapabsensikaryawan.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tahun', 'APPPATH\\Views\\laporan\\cetakrekapabsensikaryawan.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetakrekapabsensikaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetakrekapabsensikaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(111): view('laporan/cetakrekapabsensikaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakrekapkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 07:10:32 --> Undefined array key "nama_jamkerja"
+in APPPATH\Views\laporan\cetakrekapabsensikaryawan.php on line 105.
+ 1 APPPATH\Views\laporan\cetakrekapabsensikaryawan.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jamkerja"', 'APPPATH\\Views\\laporan\\cetakrekapabsensikaryawan.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetakrekapabsensikaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetakrekapabsensikaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(111): view('laporan/cetakrekapabsensikaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakrekapkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 07:13:18 --> Undefined variable $bulan
+in APPPATH\Views\laporan\cetakrekapabsensikaryawan.php on line 55.
+ 1 APPPATH\Views\laporan\cetakrekapabsensikaryawan.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Views\\laporan\\cetakrekapabsensikaryawan.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetakrekapabsensikaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetakrekapabsensikaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(111): view('laporan/cetakrekapabsensikaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakrekapkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 07:13:38 --> Undefined variable $tahun
+in APPPATH\Views\laporan\cetakrekapabsensikaryawan.php on line 69.
+ 1 APPPATH\Views\laporan\cetakrekapabsensikaryawan.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Views\\laporan\\cetakrekapabsensikaryawan.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetakrekapabsensikaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetakrekapabsensikaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(111): view('laporan/cetakrekapabsensikaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetakrekapkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 12:47:00 --> Undefined variable $nama
+in APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php on line 78.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensikaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(260): view('laporan/cetaklaporanabsensikaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanhutangkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-08 12:49:41 --> mysqli_sql_exception: Unknown column 'id_karyawan' in 'where clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Laporan.php(250): CodeIgniter\Model->__call('get', Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanhutangkaryawanperbulanperkaryawan()
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-08 12:49:41 --> Unknown column 'id_karyawan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl) = \'07\'
+AND YEAR(tgl) = \'2023\'
+AND `id_karyawan` = \'16\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl) = \'07\'
+AND YEAR(tgl) = \'2023\'
+AND `id_karyawan` = \'16\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl) = \'07\'
+AND YEAR(tgl) = \'2023\'
+AND `id_karyawan` = \'16\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl) = :MONTH(tgl):
+AND YEAR(tgl) = :YEAR(tgl):
+AND `id_karyawan` = :id_karyawan:', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Laporan.php(250): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanhutangkaryawanperbulanperkaryawan()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 12:50:11 --> Undefined variable $nama
+in APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php on line 78.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensikaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(260): view('laporan/cetaklaporanabsensikaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanhutangkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 12:50:51 --> Undefined variable $Hadir_rekap_informasi
+in APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php on line 178.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Hadir_rekap_informasi', 'APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php', 178)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensikaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(263): view('laporan/cetaklaporanabsensikaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanhutangkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 12:55:27 --> Undefined variable $Hadir_rekap_informasi
+in APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php on line 178.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Hadir_rekap_informasi', 'APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php', 178)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensikaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(271): view('laporan/cetaklaporanabsensikaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanhutangkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 12:55:42 --> Undefined array key "tgl_absensi"
+in APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php on line 141.
+ 1 APPPATH\Views\laporan\cetaklaporanabsensikaryawanperbulan.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_absensi"', 'APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php', 141)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanabsensikaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanabsensikaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(271): view('laporan/cetaklaporanabsensikaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanhutangkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 12:58:29 --> Undefined variable $datalaporan
+in APPPATH\Views\laporan\cetaklaporanhutangkaryawanperbulanperkaryawan.php on line 132.
+ 1 APPPATH\Views\laporan\cetaklaporanhutangkaryawanperbulanperkaryawan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datalaporan', 'APPPATH\\Views\\laporan\\cetaklaporanhutangkaryawanperbulanperkaryawan.php', 132)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanhutangkaryawanperbulanperkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanhutangkaryawanperbulanperkaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(270): view('laporan/cetaklaporanhutangkaryawanperbulanperkaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanhutangkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 12:58:54 --> Undefined array key "tgl_absensi"
+in APPPATH\Views\laporan\cetaklaporanhutangkaryawanperbulanperkaryawan.php on line 141.
+ 1 APPPATH\Views\laporan\cetaklaporanhutangkaryawanperbulanperkaryawan.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_absensi"', 'APPPATH\\Views\\laporan\\cetaklaporanhutangkaryawanperbulanperkaryawan.php', 141)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanhutangkaryawanperbulanperkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanhutangkaryawanperbulanperkaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(270): view('laporan/cetaklaporanhutangkaryawanperbulanperkaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanhutangkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 12:59:41 --> Undefined array key "nama_jamkerja"
+in APPPATH\Views\laporan\cetaklaporanhutangkaryawanperbulanperkaryawan.php on line 144.
+ 1 APPPATH\Views\laporan\cetaklaporanhutangkaryawanperbulanperkaryawan.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jamkerja"', 'APPPATH\\Views\\laporan\\cetaklaporanhutangkaryawanperbulanperkaryawan.php', 144)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanhutangkaryawanperbulanperkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanhutangkaryawanperbulanperkaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(270): view('laporan/cetaklaporanhutangkaryawanperbulanperkaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanhutangkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 12:59:58 --> Undefined variable $Hadir_rekap_informasi
+in APPPATH\Views\laporan\cetaklaporanhutangkaryawanperbulanperkaryawan.php on line 173.
+ 1 APPPATH\Views\laporan\cetaklaporanhutangkaryawanperbulanperkaryawan.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Hadir_rekap_informasi', 'APPPATH\\Views\\laporan\\cetaklaporanhutangkaryawanperbulanperkaryawan.php', 173)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanhutangkaryawanperbulanperkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanhutangkaryawanperbulanperkaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(270): view('laporan/cetaklaporanhutangkaryawanperbulanperkaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanhutangkaryawanperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 13:17:29 --> Undefined variable $idkar
+in APPPATH\Controllers\Laporan.php on line 325.
+ 1 APPPATH\Controllers\Laporan.php(325): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idkar', 'APPPATH\\Controllers\\Laporan.php', 325)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanhutangkaryawanperbulan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 13:17:52 --> Undefined variable $nama
+in APPPATH\Controllers\Laporan.php on line 341.
+ 1 APPPATH\Controllers\Laporan.php(341): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Controllers\\Laporan.php', 341)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanhutangkaryawanperbulan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 13:18:12 --> Undefined variable $nama
+in APPPATH\Views\laporan\cetaklaporanhutangkaryawanperbulan.php on line 78.
+ 1 APPPATH\Views\laporan\cetaklaporanhutangkaryawanperbulan.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\laporan\\cetaklaporanhutangkaryawanperbulan.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanhutangkaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanhutangkaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(344): view('laporan/cetaklaporanhutangkaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanhutangkaryawanperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 13:20:20 --> Undefined array key "tgl_hutang"
+in APPPATH\Views\laporan\cetaklaporanhutangkaryawanperbulan.php on line 101.
+ 1 APPPATH\Views\laporan\cetaklaporanhutangkaryawanperbulan.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_hutang"', 'APPPATH\\Views\\laporan\\cetaklaporanhutangkaryawanperbulan.php', 101)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanhutangkaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanhutangkaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(344): view('laporan/cetaklaporanhutangkaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanhutangkaryawanperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 13:26:06 --> Undefined array key "subtotal_hutang"
+in APPPATH\Views\laporan\cetaklaporanhutangkaryawanperbulan.php on line 112.
+ 1 APPPATH\Views\laporan\cetaklaporanhutangkaryawanperbulan.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Views\\laporan\\cetaklaporanhutangkaryawanperbulan.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporanhutangkaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporanhutangkaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(344): view('laporan/cetaklaporanhutangkaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporanhutangkaryawanperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-08 14:04:27 --> mysqli_sql_exception: Unknown column 'userkaryawan_hutang' in 'where clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Laporan.php(408): CodeIgniter\Model->__call('get', Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporankalalaianperbulanperkaryawan()
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-08 14:04:27 --> Unknown column 'userkaryawan_hutang' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tb_detail_kelalaian`
+JOIN `tb_karyawan` ON `idkaryawan`=`idkaryawan_kelalain`
+WHERE MONTH(tgl_kelalaian) = \'07\'
+AND YEAR(tgl_kelalaian) = \'2023\'
+AND `userkaryawan_hutang` = \'18\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_detail_kelalaian`
+JOIN `tb_karyawan` ON `idkaryawan`=`idkaryawan_kelalain`
+WHERE MONTH(tgl_kelalaian) = \'07\'
+AND YEAR(tgl_kelalaian) = \'2023\'
+AND `userkaryawan_hutang` = \'18\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_detail_kelalaian`
+JOIN `tb_karyawan` ON `idkaryawan`=`idkaryawan_kelalain`
+WHERE MONTH(tgl_kelalaian) = \'07\'
+AND YEAR(tgl_kelalaian) = \'2023\'
+AND `userkaryawan_hutang` = \'18\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_detail_kelalaian`
+JOIN `tb_karyawan` ON `idkaryawan`=`idkaryawan_kelalain`
+WHERE MONTH(tgl_kelalaian) = :MONTH(tgl_kelalaian):
+AND YEAR(tgl_kelalaian) = :YEAR(tgl_kelalaian):
+AND `userkaryawan_hutang` = :userkaryawan_hutang:', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Laporan.php(408): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporankalalaianperbulanperkaryawan()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 14:05:20 --> Undefined array key "tgl_hutang"
+in APPPATH\Views\laporan\cetaklaporankalalaianperbulanperkaryawan.php on line 139.
+ 1 APPPATH\Views\laporan\cetaklaporankalalaianperbulanperkaryawan.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_hutang"', 'APPPATH\\Views\\laporan\\cetaklaporankalalaianperbulanperkaryawan.php', 139)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporankalalaianperbulanperkaryawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporankalalaianperbulanperkaryawan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(428): view('laporan/cetaklaporankalalaianperbulanperkaryawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporankalalaianperbulanperkaryawan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 14:28:08 --> Undefined array key "jumlah_hutang"
+in APPPATH\Controllers\Laporan.php on line 492.
+ 1 APPPATH\Controllers\Laporan.php(492): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah_hutang"', 'APPPATH\\Controllers\\Laporan.php', 492)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporankalalaiankaryawanperbulan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 14:28:59 --> Undefined array key "subtotal_hutang"
+in APPPATH\Views\laporan\cetaklaporankalalaiankaryawanperbulan.php on line 108.
+ 1 APPPATH\Views\laporan\cetaklaporankalalaiankaryawanperbulan.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Views\\laporan\\cetaklaporankalalaiankaryawanperbulan.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporankalalaiankaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporankalalaiankaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(503): view('laporan/cetaklaporankalalaiankaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporankalalaiankaryawanperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 14:31:02 --> Undefined array key "tgl_hutang"
+in APPPATH\Views\laporan\cetaklaporankalalaiankaryawanperbulan.php on line 126.
+ 1 APPPATH\Views\laporan\cetaklaporankalalaiankaryawanperbulan.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_hutang"', 'APPPATH\\Views\\laporan\\cetaklaporankalalaiankaryawanperbulan.php', 126)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporankalalaiankaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporankalalaiankaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(503): view('laporan/cetaklaporankalalaiankaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporankalalaiankaryawanperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 16:53:58 --> Undefined array key "idkaryawan_kelalain"
+in APPPATH\Views\laporan\cetaklaporangajikaryawanperbulan.php on line 119.
+ 1 APPPATH\Views\laporan\cetaklaporangajikaryawanperbulan.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idkaryawan_kelalain"', 'APPPATH\\Views\\laporan\\cetaklaporangajikaryawanperbulan.php', 119)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporangajikaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporangajikaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(581): view('laporan/cetaklaporangajikaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporangajikaryawanperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 17:00:31 --> Undefined array key "subtotal_kelalaian"
+in APPPATH\Views\laporan\cetaklaporangajikaryawanperbulan.php on line 122.
+ 1 APPPATH\Views\laporan\cetaklaporangajikaryawanperbulan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_kelalaian"', 'APPPATH\\Views\\laporan\\cetaklaporangajikaryawanperbulan.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporangajikaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporangajikaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(581): view('laporan/cetaklaporangajikaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporangajikaryawanperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 17:02:16 --> Undefined array key "jabatan"
+in APPPATH\Views\laporan\cetaklaporangajikaryawanperbulan.php on line 122.
+ 1 APPPATH\Views\laporan\cetaklaporangajikaryawanperbulan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jabatan"', 'APPPATH\\Views\\laporan\\cetaklaporangajikaryawanperbulan.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporangajikaryawanperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporangajikaryawanperbulan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(581): view('laporan/cetaklaporangajikaryawanperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->cetaklaporangajikaryawanperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-08 17:59:34 --> mysqli_sql_exception: Unknown column 'id_hutang' in 'where clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\API\RiwayatGaji.php(44): CodeIgniter\Model->__call('get', Array)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\API\RiwayatGaji->show('18')
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RiwayatGaji))
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-08 17:59:34 --> Unknown column 'id_hutang' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tb_detail_gaji`
+WHERE `id_hutang` LIKE \'%18%\' ESCAPE \'!\'
+ORDER BY `tgl_hutang` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_detail_gaji`
+WHERE `id_hutang` LIKE \'%18%\' ESCAPE \'!\'
+ORDER BY `tgl_hutang` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_detail_gaji`
+WHERE `id_hutang` LIKE \'%18%\' ESCAPE \'!\'
+ORDER BY `tgl_hutang` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_detail_gaji`
+WHERE `id_hutang` LIKE :id_hutang: ESCAPE \'!\'
+ORDER BY `tgl_hutang` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\API\RiwayatGaji.php(44): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\RiwayatGaji->show('18')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RiwayatGaji))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-08 18:09:28 --> Call to a member function where() on null
+in APPPATH\Controllers\API\RiwayatGaji.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\RiwayatGaji->show('18')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\RiwayatGaji))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

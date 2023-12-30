@@ -1,0 +1,208 @@
+CRITICAL - 2023-06-25 23:09:21 --> Class "App\Models\ModelDetailKelalaian" not found
+in APPPATH\Controllers\Kelalaian.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Kelalaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:09:27 --> Class "App\Models\ModelDetailKelalaian" not found
+in APPPATH\Controllers\Kelalaian.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Kelalaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:10:10 --> Invalid file: kelalian/viewkelalian.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelalian/viewkelalian.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kelalian/viewkelalian', [], true)
+ 3 APPPATH\Controllers\Kelalaian.php(41): view('kelalian/viewkelalian', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:10:33 --> Invalid file: kelalian/viewkelalaian.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelalian/viewkelalaian.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kelalian/viewkelalaian', [], true)
+ 3 APPPATH\Controllers\Kelalaian.php(41): view('kelalian/viewkelalaian', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:10:34 --> Invalid file: kelalian/viewkelalaian.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelalian/viewkelalaian.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kelalian/viewkelalaian', [], true)
+ 3 APPPATH\Controllers\Kelalaian.php(41): view('kelalian/viewkelalaian', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:10:41 --> Invalid file: kelalian/viewkelalaian.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelalian/viewkelalaian.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kelalian/viewkelalaian', [], true)
+ 3 APPPATH\Controllers\Kelalaian.php(41): view('kelalian/viewkelalaian', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:11:12 --> Class "App\Models\ModelDetailkelalaian" not found
+in APPPATH\Controllers\Kelalaian.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Kelalaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:11:17 --> Class "App\Models\ModelDetailkelalaian" not found
+in APPPATH\Controllers\Kelalaian.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Kelalaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:11:20 --> Class "App\Models\ModelDetailkelalaian" not found
+in APPPATH\Controllers\Kelalaian.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Kelalaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:11:40 --> Class "App\Models\Modelkelalaian" not found
+in APPPATH\Controllers\Kelalaian.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Kelalaian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:11:57 --> Undefined array key "tgl_hutang"
+in APPPATH\Views\kelalaian\viewkelalaian.php on line 95.
+ 1 APPPATH\Views\kelalaian\viewkelalaian.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_hutang"', 'APPPATH\\Views\\kelalaian\\viewkelalaian.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelalaian\\viewkelalaian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kelalaian/viewkelalaian', [], true)
+ 5 APPPATH\Controllers\Kelalaian.php(42): view('kelalaian/viewkelalaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:12:58 --> Undefined array key "jumlah_kelalaian"
+in APPPATH\Views\kelalaian\viewkelalaian.php on line 120.
+ 1 APPPATH\Views\kelalaian\viewkelalaian.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah_kelalaian"', 'APPPATH\\Views\\kelalaian\\viewkelalaian.php', 120)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelalaian\\viewkelalaian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kelalaian/viewkelalaian', [], true)
+ 5 APPPATH\Controllers\Kelalaian.php(42): view('kelalaian/viewkelalaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 23:18:42 --> mysqli_sql_exception: Unknown column 'ket_hutang' in 'where clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Kelalaian.php(30): CodeIgniter\Model->countAllResults()
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\Kelalaian->index()
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 23:18:42 --> Unknown column 'ket_hutang' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_detail_kelalaian`
+JOIN `tb_karyawan` ON `idkaryawan`=`idkaryawan_kelalain`
+WHERE `ket_hutang` LIKE \'%laras%\' ESCAPE \'!\'
+OR  `nama_karyawan` LIKE \'%laras%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `tb_detail_kelalaian`
+JOIN `tb_karyawan` ON `idkaryawan`=`idkaryawan_kelalain`
+WHERE `ket_hutang` LIKE \'%laras%\' ESCAPE \'!\'
+OR  `nama_karyawan` LIKE \'%laras%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `tb_detail_kelalaian`
+JOIN `tb_karyawan` ON `idkaryawan`=`idkaryawan_kelalain`
+WHERE `ket_hutang` LIKE \'%laras%\' ESCAPE \'!\'
+OR  `nama_karyawan` LIKE \'%laras%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_detail_kelalaian`
+JOIN `tb_karyawan` ON `idkaryawan`=`idkaryawan_kelalain`
+WHERE `ket_hutang` LIKE :ket_hutang: ESCAPE \'!\'
+OR  `nama_karyawan` LIKE :nama_karyawan: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Controllers\Kelalaian.php(30): CodeIgniter\Model->countAllResults()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:21:52 --> Undefined array key "subtotal_hutang"
+in APPPATH\Views\kelalaian\dataKelalaianperbulan.php on line 135.
+ 1 APPPATH\Views\kelalaian\dataKelalaianperbulan.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Views\\kelalaian\\dataKelalaianperbulan.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelalaian\\dataKelalaianperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Kelalaian/dataKelalaianperbulan', [], true)
+ 5 APPPATH\Controllers\Kelalaian.php(79): view('Kelalaian/dataKelalaianperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->dataperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:21:57 --> Undefined array key "subtotal_hutang"
+in APPPATH\Views\kelalaian\dataKelalaianperbulan.php on line 135.
+ 1 APPPATH\Views\kelalaian\dataKelalaianperbulan.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Views\\kelalaian\\dataKelalaianperbulan.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelalaian\\dataKelalaianperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Kelalaian/dataKelalaianperbulan', [], true)
+ 5 APPPATH\Controllers\Kelalaian.php(79): view('Kelalaian/dataKelalaianperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->dataperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:22:47 --> Undefined array key "subtotal_hutang"
+in APPPATH\Views\kelalaian\dataKelalaianperbulan.php on line 135.
+ 1 APPPATH\Views\kelalaian\dataKelalaianperbulan.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Views\\kelalaian\\dataKelalaianperbulan.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelalaian\\dataKelalaianperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Kelalaian/dataKelalaianperbulan', [], true)
+ 5 APPPATH\Controllers\Kelalaian.php(79): view('Kelalaian/dataKelalaianperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->dataperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:24:27 --> Undefined array key "jumlah_hutang"
+in APPPATH\Views\kelalaian\dataKelalaianperbulan.php on line 166.
+ 1 APPPATH\Views\kelalaian\dataKelalaianperbulan.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah_hutang"', 'APPPATH\\Views\\kelalaian\\dataKelalaianperbulan.php', 166)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelalaian\\dataKelalaianperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Kelalaian/dataKelalaianperbulan', [], true)
+ 5 APPPATH\Controllers\Kelalaian.php(79): view('Kelalaian/dataKelalaianperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->dataperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:26:07 --> Undefined array key "tgl_hutang"
+in APPPATH\Views\kelalaian\dataKelalaianperbulan.php on line 179.
+ 1 APPPATH\Views\kelalaian\dataKelalaianperbulan.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_hutang"', 'APPPATH\\Views\\kelalaian\\dataKelalaianperbulan.php', 179)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelalaian\\dataKelalaianperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Kelalaian/dataKelalaianperbulan', [], true)
+ 5 APPPATH\Controllers\Kelalaian.php(79): view('Kelalaian/dataKelalaianperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->dataperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:26:08 --> Undefined array key "tgl_hutang"
+in APPPATH\Views\kelalaian\dataKelalaianperbulan.php on line 179.
+ 1 APPPATH\Views\kelalaian\dataKelalaianperbulan.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_hutang"', 'APPPATH\\Views\\kelalaian\\dataKelalaianperbulan.php', 179)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelalaian\\dataKelalaianperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Kelalaian/dataKelalaianperbulan', [], true)
+ 5 APPPATH\Controllers\Kelalaian.php(79): view('Kelalaian/dataKelalaianperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->dataperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 23:58:05 --> Undefined variable $jumlahKelalaian
+in APPPATH\Controllers\Kelalaian.php on line 236.
+ 1 APPPATH\Controllers\Kelalaian.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jumlahKelalaian', 'APPPATH\\Controllers\\Kelalaian.php', 236)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kelalaian->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelalaian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

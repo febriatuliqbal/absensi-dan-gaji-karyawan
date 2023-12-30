@@ -1,0 +1,679 @@
+CRITICAL - 2023-06-20 01:36:05 --> Invalid file: karyawan/modaldata.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('karyawan/modaldata.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('karyawan/modaldata', [], true)
+ 3 APPPATH\Controllers\User.php(103): view('karyawan/modaldata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->modalDataPelanggan()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:36:06 --> Invalid file: karyawan/modaldata.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('karyawan/modaldata.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('karyawan/modaldata', [], true)
+ 3 APPPATH\Controllers\User.php(103): view('karyawan/modaldata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->modalDataPelanggan()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:36:06 --> Invalid file: karyawan/modaldata.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('karyawan/modaldata.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('karyawan/modaldata', [], true)
+ 3 APPPATH\Controllers\User.php(103): view('karyawan/modaldata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->modalDataPelanggan()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:37:43 --> Undefined variable $data
+in APPPATH\Controllers\Karyawan.php on line 74.
+ 1 APPPATH\Controllers\Karyawan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Karyawan.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->modaldatakaryawan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:38:23 --> Undefined variable $data
+in APPPATH\Controllers\Karyawan.php on line 74.
+ 1 APPPATH\Controllers\Karyawan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Karyawan.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->modaldatakaryawan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:38:25 --> Undefined variable $data
+in APPPATH\Controllers\Karyawan.php on line 74.
+ 1 APPPATH\Controllers\Karyawan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Karyawan.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->modaldatakaryawan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:38:26 --> Undefined variable $data
+in APPPATH\Controllers\Karyawan.php on line 74.
+ 1 APPPATH\Controllers\Karyawan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Karyawan.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->modaldatakaryawan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:38:26 --> Undefined variable $data
+in APPPATH\Controllers\Karyawan.php on line 74.
+ 1 APPPATH\Controllers\Karyawan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Karyawan.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->modaldatakaryawan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:38:27 --> Undefined variable $data
+in APPPATH\Controllers\Karyawan.php on line 74.
+ 1 APPPATH\Controllers\Karyawan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Karyawan.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->modaldatakaryawan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:38:36 --> Undefined variable $data
+in APPPATH\Controllers\Karyawan.php on line 74.
+ 1 APPPATH\Controllers\Karyawan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Karyawan.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->modaldatakaryawan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:42:09 --> Undefined property: App\Controllers\Karyawan::$Pengguna
+in APPPATH\Controllers\Karyawan.php on line 81.
+ 1 APPPATH\Controllers\Karyawan.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Karyawan::$Pengguna', 'APPPATH\\Controllers\\Karyawan.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->modaldatakaryawan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:42:11 --> Undefined property: App\Controllers\Karyawan::$Pengguna
+in APPPATH\Controllers\Karyawan.php on line 81.
+ 1 APPPATH\Controllers\Karyawan.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Karyawan::$Pengguna', 'APPPATH\\Controllers\\Karyawan.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->modaldatakaryawan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:42:32 --> Invalid file: pengguna/modaldata2.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengguna/modaldata2.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pengguna/modaldata2', [], true)
+ 3 APPPATH\Controllers\User.php(78): view('pengguna/modaldata2')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->modalDataPelanggan()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:42:33 --> Invalid file: pengguna/modaldata2.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengguna/modaldata2.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pengguna/modaldata2', [], true)
+ 3 APPPATH\Controllers\User.php(78): view('pengguna/modaldata2')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->modalDataPelanggan()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:43:18 --> Undefined property: App\Controllers\Karyawan::$Pengguna
+in APPPATH\Controllers\Karyawan.php on line 81.
+ 1 APPPATH\Controllers\Karyawan.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Karyawan::$Pengguna', 'APPPATH\\Controllers\\Karyawan.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->modaldatakaryawan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:43:19 --> Undefined property: App\Controllers\Karyawan::$Pengguna
+in APPPATH\Controllers\Karyawan.php on line 81.
+ 1 APPPATH\Controllers\Karyawan.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Karyawan::$Pengguna', 'APPPATH\\Controllers\\Karyawan.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->modaldatakaryawan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:43:51 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\Karyawan.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->listDataPengguna()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:46:28 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\Karyawan.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->listDataKaryawan()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:46:45 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\Karyawan.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->listDataKaryawan()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:46:51 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\Karyawan.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->listDataKaryawan()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:49:46 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\Karyawan.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->listDataKaryawan()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:50:11 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\Karyawan.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->listDataKaryawan()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:50:33 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\Karyawan.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->listDataKaryawan()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:51:14 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\Karyawan.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->listDataKaryawan()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:53:16 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\Karyawan.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->listDataKaryawan()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 02:11:48 --> Undefined variable $nomorUrutSelanjutnya
+in APPPATH\Controllers\Hutang.php on line 136.
+ 1 APPPATH\Controllers\Hutang.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nomorUrutSelanjutnya', 'APPPATH\\Controllers\\Hutang.php', 136)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 02:12:19 --> Undefined variable $nama
+in APPPATH\Controllers\Hutang.php on line 225.
+ 1 APPPATH\Controllers\Hutang.php(225): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Controllers\\Hutang.php', 225)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 02:13:29 --> Undefined array key "subtotal_hutang"
+in APPPATH\Controllers\Hutang.php on line 96.
+ 1 APPPATH\Controllers\Hutang.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Controllers\\Hutang.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 02:13:39 --> Undefined array key "subtotal_hutang"
+in APPPATH\Controllers\Hutang.php on line 96.
+ 1 APPPATH\Controllers\Hutang.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_hutang"', 'APPPATH\\Controllers\\Hutang.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 02:15:29 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Hutang.php on line 96.
+ 1 APPPATH\Controllers\Hutang.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Hutang.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 02:15:34 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Hutang.php on line 96.
+ 1 APPPATH\Controllers\Hutang.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Hutang.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->hapus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 02:25:05 --> mysqli_sql_exception: Unknown column 'id_karyawan_hutang' in 'on clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Hutang.php(64): CodeIgniter\BaseModel->paginate(10, 'nomor')
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-20 02:25:05 --> Unknown column 'id_karyawan_hutang' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl_hutang) = :MONTH(tgl_hutang):
+AND YEAR(tgl_hutang) = :YEAR(tgl_hutang):', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Hutang.php(64): CodeIgniter\BaseModel->paginate(10, 'nomor')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 02:25:12 --> mysqli_sql_exception: Unknown column 'id_karyawan_hutang' in 'on clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Hutang.php(64): CodeIgniter\BaseModel->paginate(10, 'nomor')
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-20 02:25:12 --> Unknown column 'id_karyawan_hutang' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl_hutang) = :MONTH(tgl_hutang):
+AND YEAR(tgl_hutang) = :YEAR(tgl_hutang):', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Hutang.php(64): CodeIgniter\BaseModel->paginate(10, 'nomor')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 02:28:18 --> mysqli_sql_exception: Column 'tgl_hutang' in where clause is ambiguous in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Hutang.php(64): CodeIgniter\BaseModel->paginate(10, 'nomor')
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-20 02:28:18 --> Column 'tgl_hutang' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_detail_hutang` ON `id`=`id_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_detail_hutang` ON `id`=`id_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_detail_hutang` ON `id`=`id_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_detail_hutang` ON `id`=`id_hutang`
+WHERE MONTH(tgl_hutang) = :MONTH(tgl_hutang):
+AND YEAR(tgl_hutang) = :YEAR(tgl_hutang):', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Hutang.php(64): CodeIgniter\BaseModel->paginate(10, 'nomor')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 02:28:19 --> mysqli_sql_exception: Column 'tgl_hutang' in where clause is ambiguous in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Hutang.php(64): CodeIgniter\BaseModel->paginate(10, 'nomor')
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-20 02:28:19 --> Column 'tgl_hutang' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_detail_hutang` ON `id`=`id_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_detail_hutang` ON `id`=`id_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_detail_hutang` ON `id`=`id_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_detail_hutang` ON `id`=`id_hutang`
+WHERE MONTH(tgl_hutang) = :MONTH(tgl_hutang):
+AND YEAR(tgl_hutang) = :YEAR(tgl_hutang):', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Hutang.php(64): CodeIgniter\BaseModel->paginate(10, 'nomor')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 02:29:31 --> mysqli_sql_exception: Column 'tgl_hutang' in where clause is ambiguous in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Hutang.php(64): CodeIgniter\BaseModel->paginate(10, 'nomor')
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-20 02:29:31 --> Column 'tgl_hutang' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_detail_hutang` ON `id`=`id_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_detail_hutang` ON `id`=`id_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_detail_hutang` ON `id`=`id_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_detail_hutang` ON `id`=`id_hutang`
+WHERE MONTH(tgl_hutang) = :MONTH(tgl_hutang):
+AND YEAR(tgl_hutang) = :YEAR(tgl_hutang):', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Hutang.php(64): CodeIgniter\BaseModel->paginate(10, 'nomor')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 02:29:31 --> mysqli_sql_exception: Column 'tgl_hutang' in where clause is ambiguous in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Hutang.php(64): CodeIgniter\BaseModel->paginate(10, 'nomor')
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-20 02:29:31 --> Column 'tgl_hutang' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_detail_hutang` ON `id`=`id_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_detail_hutang` ON `id`=`id_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_detail_hutang` ON `id`=`id_hutang`
+WHERE MONTH(tgl_hutang) = \'06\'
+AND YEAR(tgl_hutang) = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_hutang`
+JOIN `tb_detail_hutang` ON `id`=`id_hutang`
+WHERE MONTH(tgl_hutang) = :MONTH(tgl_hutang):
+AND YEAR(tgl_hutang) = :YEAR(tgl_hutang):', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Hutang.php(64): CodeIgniter\BaseModel->paginate(10, 'nomor')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 02:30:27 --> Undefined array key "nama_karyawan"
+in APPPATH\Views\hutang\viewhutangperbulan.php on line 131.
+ 1 APPPATH\Views\hutang\viewhutangperbulan.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_karyawan"', 'APPPATH\\Views\\hutang\\viewhutangperbulan.php', 131)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\viewhutangperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutangperbulan', [], true)
+ 5 APPPATH\Controllers\Hutang.php(79): view('hutang/viewhutangperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 02:31:36 --> Undefined array key "nama_karyawan"
+in APPPATH\Views\hutang\viewhutangperbulan.php on line 131.
+ 1 APPPATH\Views\hutang\viewhutangperbulan.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_karyawan"', 'APPPATH\\Views\\hutang\\viewhutangperbulan.php', 131)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\viewhutangperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutangperbulan', [], true)
+ 5 APPPATH\Controllers\Hutang.php(79): view('hutang/viewhutangperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 02:31:56 --> Undefined array key "nama_karyawan"
+in APPPATH\Views\hutang\viewhutangperbulan.php on line 131.
+ 1 APPPATH\Views\hutang\viewhutangperbulan.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_karyawan"', 'APPPATH\\Views\\hutang\\viewhutangperbulan.php', 131)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\viewhutangperbulan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/viewhutangperbulan', [], true)
+ 5 APPPATH\Controllers\Hutang.php(79): view('hutang/viewhutangperbulan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 02:47:13 --> mysqli_sql_exception: Unknown column 'tgl_hutang' in 'order clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(1110): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Hutang.php(64): CodeIgniter\BaseModel->paginate(10, 'nomor')
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-20 02:47:13 --> Unknown column 'tgl_hutang' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl) = \'06\'
+AND YEAR(tgl) = \'2023\'
+ORDER BY `tgl_hutang` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl) = \'06\'
+AND YEAR(tgl) = \'2023\'
+ORDER BY `tgl_hutang` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl) = \'06\'
+AND YEAR(tgl) = \'2023\'
+ORDER BY `tgl_hutang` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl) = :MONTH(tgl):
+AND YEAR(tgl) = :YEAR(tgl):
+ORDER BY `tgl_hutang` DESC
+ LIMIT 10', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1110): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Controllers\Hutang.php(64): CodeIgniter\BaseModel->paginate(10, 'nomor')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 02:53:54 --> mysqli_sql_exception: Unknown column 'tgl_hutang' in 'order clause' in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\BaseModel.php(1110): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Hutang.php(64): CodeIgniter\BaseModel->paginate(10, 'nomor')
+#8 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+#9 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+#10 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-20 02:53:54 --> Unknown column 'tgl_hutang' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl) = \'06\'
+AND YEAR(tgl) = \'2023\'
+ORDER BY `tgl_hutang` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl) = \'06\'
+AND YEAR(tgl) = \'2023\'
+ORDER BY `tgl_hutang` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl) = \'06\'
+AND YEAR(tgl) = \'2023\'
+ORDER BY `tgl_hutang` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_hutang`
+JOIN `tb_karyawan` ON `idkaryawan`=`id_karyawan_hutang`
+WHERE MONTH(tgl) = :MONTH(tgl):
+AND YEAR(tgl) = :YEAR(tgl):
+ORDER BY `tgl_hutang` DESC
+ LIMIT 10', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1110): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Controllers\Hutang.php(64): CodeIgniter\BaseModel->paginate(10, 'nomor')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->datahutangperbulan()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 02:59:57 --> Undefined array key "nama_karyawan"
+in APPPATH\Controllers\Hutang.php on line 361.
+ 1 APPPATH\Controllers\Hutang.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_karyawan"', 'APPPATH\\Controllers\\Hutang.php', 361)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->edit('22')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 03:02:09 --> Undefined array key "jabatan_karyawan"
+in APPPATH\Controllers\Hutang.php on line 361.
+ 1 APPPATH\Controllers\Hutang.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jabatan_karyawan"', 'APPPATH\\Controllers\\Hutang.php', 361)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->edit('22')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 03:02:17 --> Undefined array key "jabatan_karyawan"
+in APPPATH\Controllers\Hutang.php on line 361.
+ 1 APPPATH\Controllers\Hutang.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jabatan_karyawan"', 'APPPATH\\Controllers\\Hutang.php', 361)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->edit('22')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 03:04:58 --> Undefined array key "jabatan_karyawan"
+in APPPATH\Controllers\Hutang.php on line 361.
+ 1 APPPATH\Controllers\Hutang.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jabatan_karyawan"', 'APPPATH\\Controllers\\Hutang.php', 361)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->edit('22')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 03:04:59 --> Undefined array key "jabatan_karyawan"
+in APPPATH\Controllers\Hutang.php on line 361.
+ 1 APPPATH\Controllers\Hutang.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jabatan_karyawan"', 'APPPATH\\Controllers\\Hutang.php', 361)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->edit('22')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 03:05:04 --> Undefined array key "jabatan_karyawan"
+in APPPATH\Controllers\Hutang.php on line 361.
+ 1 APPPATH\Controllers\Hutang.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jabatan_karyawan"', 'APPPATH\\Controllers\\Hutang.php', 361)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->edit('22')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 03:11:10 --> Array to string conversion
+in APPPATH\Views\hutang\formedithutang.php on line 42.
+ 1 APPPATH\Views\hutang\formedithutang.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\hutang\\formedithutang.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\formedithutang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/formedithutang', [], true)
+ 5 APPPATH\Controllers\Hutang.php(372): view('hutang/formedithutang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->edit('22')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 03:11:13 --> Array to string conversion
+in APPPATH\Views\hutang\formedithutang.php on line 42.
+ 1 APPPATH\Views\hutang\formedithutang.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\hutang\\formedithutang.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hutang\\formedithutang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hutang/formedithutang', [], true)
+ 5 APPPATH\Controllers\Hutang.php(372): view('hutang/formedithutang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hutang->edit('22')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hutang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

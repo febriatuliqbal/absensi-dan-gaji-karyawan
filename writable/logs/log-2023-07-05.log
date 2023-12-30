@@ -1,0 +1,571 @@
+CRITICAL - 2023-07-05 01:03:18 --> Undefined variable $bulan
+in APPPATH\Views\gaji\formtambahgaji.php on line 42.
+ 1 APPPATH\Views\gaji\formtambahgaji.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Views\\gaji\\formtambahgaji.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\gaji\\formtambahgaji.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/formtambahgaji', [], true)
+ 5 APPPATH\Controllers\Penggajian.php(143): view('gaji/formtambahgaji')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:18:17 --> Undefined variable $nohalaman
+in APPPATH\Views\gaji\datadetail.php on line 20.
+ 1 APPPATH\Views\gaji\datadetail.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\gaji\\datadetail.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\gaji\\datadetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 5 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:18:29 --> Undefined variable $nohalaman
+in APPPATH\Views\gaji\datadetail.php on line 20.
+ 1 APPPATH\Views\gaji\datadetail.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\gaji\\datadetail.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\gaji\\datadetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 5 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:19:39 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:19:58 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:20:45 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:20:47 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:20:50 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:21:11 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:21:13 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:22:04 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:23:09 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:23:25 --> view(): Argument #2 ($data) must be of type array, App\Models\ModelDetailGaji given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', Object(App\Models\ModelDetailGaji))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:23:57 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', 'GAJ-072023')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:24:32 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', 'GAJ-072023')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:25:19 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', 'kamu')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:33:58 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', 'GAJ-072023')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:34:33 --> Undefined array key "subtotal_kelalaian"
+in APPPATH\Controllers\Penggajian.php on line 61.
+ 1 APPPATH\Controllers\Penggajian.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "subtotal_kelalaian"', 'APPPATH\\Controllers\\Penggajian.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:35:07 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', 'GAJ-072023')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:36:28 --> Undefined variable $idgaji
+in APPPATH\Controllers\Penggajian.php on line 66.
+ 1 APPPATH\Controllers\Penggajian.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idgaji', 'APPPATH\\Controllers\\Penggajian.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:36:48 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', 'GAJ-072023')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:36:53 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', 'GAJ-072023')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:37:59 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', 'GAJ-072023')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:38:01 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', 'GAJ-072023')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:38:37 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', 'GAJ-072023')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:43:28 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:43:39 --> Undefined variable $idgaji
+in APPPATH\Controllers\Penggajian.php on line 66.
+ 1 APPPATH\Controllers\Penggajian.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idgaji', 'APPPATH\\Controllers\\Penggajian.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:43:50 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', 'GAJ-072023')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:44:30 --> view(): Argument #2 ($data) must be of type array, string given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', 'GAJ-072023')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:47:55 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:49:07 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:49:50 --> view(): Argument #2 ($data) must be of type array, App\Models\ModelDetailGaji given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', Object(App\Models\ModelDetailGaji))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:50:17 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 66
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:53:13 --> Undefined variable $nohalaman
+in APPPATH\Views\gaji\datadetail.php on line 20.
+ 1 APPPATH\Views\gaji\datadetail.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\gaji\\datadetail.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\gaji\\datadetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 5 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:53:37 --> Undefined variable $nohalaman
+in APPPATH\Views\gaji\datadetail.php on line 20.
+ 1 APPPATH\Views\gaji\datadetail.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\gaji\\datadetail.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\gaji\\datadetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 5 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:53:49 --> Undefined variable $nohalaman
+in APPPATH\Views\gaji\datadetail.php on line 20.
+ 1 APPPATH\Views\gaji\datadetail.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\gaji\\datadetail.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\gaji\\datadetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 5 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:55:10 --> Undefined variable $nohalaman
+in APPPATH\Views\gaji\datadetail.php on line 20.
+ 1 APPPATH\Views\gaji\datadetail.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\gaji\\datadetail.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\gaji\\datadetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 5 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:55:23 --> Undefined variable $nohalaman
+in APPPATH\Views\gaji\datadetail.php on line 20.
+ 1 APPPATH\Views\gaji\datadetail.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\gaji\\datadetail.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\gaji\\datadetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 5 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:55:41 --> Undefined variable $nohalaman
+in APPPATH\Views\gaji\datadetail.php on line 20.
+ 1 APPPATH\Views\gaji\datadetail.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\gaji\\datadetail.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\gaji\\datadetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 5 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:55:56 --> Undefined variable $nohalaman
+in APPPATH\Views\gaji\datadetail.php on line 20.
+ 1 APPPATH\Views\gaji\datadetail.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\gaji\\datadetail.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\gaji\\datadetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 5 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:56:06 --> Undefined variable $nohalaman
+in APPPATH\Views\gaji\datadetail.php on line 20.
+ 1 APPPATH\Views\gaji\datadetail.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nohalaman', 'APPPATH\\Views\\gaji\\datadetail.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\gaji\\datadetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 5 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:58:37 --> Cannot use object of type mysqli as array
+in APPPATH\Views\gaji\datadetail.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 4 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:58:53 --> Cannot use object of type mysqli as array
+in APPPATH\Views\gaji\datadetail.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 4 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:59:25 --> Cannot use object of type mysqli as array
+in APPPATH\Views\gaji\datadetail.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 4 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:00:58 --> Cannot use object of type mysqli as array
+in APPPATH\Views\gaji\datadetail.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 4 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:01:59 --> Call to undefined method App\Models\ModelDetailGaji::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Penggajian.php(56): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:03:04 --> Too few arguments to function App\Models\ModelDetailGaji::tampildata_cari(), 0 passed in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 53 and exactly 1 expected
+in APPPATH\Models\ModelDetailGaji.php on line 19.
+ 1 APPPATH\Controllers\Penggajian.php(53): App\Models\ModelDetailGaji->tampildata_cari()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:03:15 --> Too few arguments to function App\Models\ModelDetailGaji::tampildata_cari(), 0 passed in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 53 and exactly 1 expected
+in APPPATH\Models\ModelDetailGaji.php on line 19.
+ 1 APPPATH\Controllers\Penggajian.php(53): App\Models\ModelDetailGaji->tampildata_cari()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:03:26 --> Too few arguments to function App\Models\ModelDetailGaji::tampildata_cari(), 0 passed in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 53 and exactly 1 expected
+in APPPATH\Models\ModelDetailGaji.php on line 19.
+ 1 APPPATH\Controllers\Penggajian.php(53): App\Models\ModelDetailGaji->tampildata_cari()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:05:27 --> Too few arguments to function App\Models\ModelDetailGaji::tampildata_cari(), 0 passed in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 53 and exactly 1 expected
+in APPPATH\Models\ModelDetailGaji.php on line 19.
+ 1 APPPATH\Controllers\Penggajian.php(53): App\Models\ModelDetailGaji->tampildata_cari()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:05:40 --> Too few arguments to function App\Models\ModelDetailGaji::tampildata_cari(), 0 passed in D:\INSTALER\XAMP806\htdocs\maadvertising.co.id\app\Controllers\Penggajian.php on line 53 and exactly 1 expected
+in APPPATH\Models\ModelDetailGaji.php on line 19.
+ 1 APPPATH\Controllers\Penggajian.php(53): App\Models\ModelDetailGaji->tampildata_cari()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:06:02 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\Penggajian.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:06:14 --> Cannot use object of type mysqli as array
+in APPPATH\Views\gaji\datadetail.php on line 30.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('gaji/datadetail', [], true)
+ 4 APPPATH\Controllers\Penggajian.php(66): view('gaji/datadetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 03:24:59 --> syntax error, unexpected token ","
+in APPPATH\Controllers\Penggajian.php on line 109.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Penggajian/tambah')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Penggajian/tambah')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('Penggajian/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 03:50:44 --> Undefined variable $tahun
+in APPPATH\Controllers\Penggajian.php on line 141.
+ 1 APPPATH\Controllers\Penggajian.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Controllers\\Penggajian.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->rekapdatadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 03:50:48 --> Undefined variable $tahun
+in APPPATH\Controllers\Penggajian.php on line 141.
+ 1 APPPATH\Controllers\Penggajian.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Controllers\\Penggajian.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->rekapdatadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 03:52:16 --> Undefined variable $tahun
+in APPPATH\Controllers\Penggajian.php on line 141.
+ 1 APPPATH\Controllers\Penggajian.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Controllers\\Penggajian.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->rekapdatadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 03:52:23 --> Undefined variable $tahun
+in APPPATH\Controllers\Penggajian.php on line 141.
+ 1 APPPATH\Controllers\Penggajian.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun', 'APPPATH\\Controllers\\Penggajian.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->rekapdatadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 04:06:22 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Penggajian.php(121): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->rekapdatadetail()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 04:07:17 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Penggajian.php(121): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->rekapdatadetail()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 04:07:25 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Penggajian.php(121): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->rekapdatadetail()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 04:08:20 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 729.
+ 1 SYSTEMPATH\BaseModel.php(729): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Penggajian.php(121): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->rekapdatadetail()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 04:31:04 --> Undefined array key "total_gaji"
+in APPPATH\Controllers\Penggajian.php on line 57.
+ 1 APPPATH\Controllers\Penggajian.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_gaji"', 'APPPATH\\Controllers\\Penggajian.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 04:31:09 --> Undefined array key "total_gaji"
+in APPPATH\Controllers\Penggajian.php on line 57.
+ 1 APPPATH\Controllers\Penggajian.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_gaji"', 'APPPATH\\Controllers\\Penggajian.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 04:32:05 --> Undefined array key "total_gaji"
+in APPPATH\Controllers\Penggajian.php on line 57.
+ 1 APPPATH\Controllers\Penggajian.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_gaji"', 'APPPATH\\Controllers\\Penggajian.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 04:33:20 --> Undefined array key "total_gaji"
+in APPPATH\Controllers\Penggajian.php on line 57.
+ 1 APPPATH\Controllers\Penggajian.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_gaji"', 'APPPATH\\Controllers\\Penggajian.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 04:33:30 --> Undefined array key "total_gaji"
+in APPPATH\Controllers\Penggajian.php on line 57.
+ 1 APPPATH\Controllers\Penggajian.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_gaji"', 'APPPATH\\Controllers\\Penggajian.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 04:33:55 --> Undefined array key "total_gaji"
+in APPPATH\Controllers\Penggajian.php on line 57.
+ 1 APPPATH\Controllers\Penggajian.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_gaji"', 'APPPATH\\Controllers\\Penggajian.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 04:34:40 --> Undefined array key "total_gaji"
+in APPPATH\Controllers\Penggajian.php on line 57.
+ 1 APPPATH\Controllers\Penggajian.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_gaji"', 'APPPATH\\Controllers\\Penggajian.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 04:34:45 --> Undefined array key "total_gaji"
+in APPPATH\Controllers\Penggajian.php on line 57.
+ 1 APPPATH\Controllers\Penggajian.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_gaji"', 'APPPATH\\Controllers\\Penggajian.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 04:36:26 --> Undefined array key "total_gaji"
+in APPPATH\Controllers\Penggajian.php on line 57.
+ 1 APPPATH\Controllers\Penggajian.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_gaji"', 'APPPATH\\Controllers\\Penggajian.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 04:37:09 --> Undefined array key "total_gaji"
+in APPPATH\Controllers\Penggajian.php on line 57.
+ 1 APPPATH\Controllers\Penggajian.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_gaji"', 'APPPATH\\Controllers\\Penggajian.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penggajian->datadetail()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
